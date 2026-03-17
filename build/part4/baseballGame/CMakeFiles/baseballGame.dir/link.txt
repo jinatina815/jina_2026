@@ -1,0 +1,1 @@
+/usr/bin/gcc -g CMakeFiles/baseballGame.dir/main.c.o -o baseballGame 

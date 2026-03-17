@@ -1,0 +1,38 @@
+[
+{
+  "directory": "/home/jinatina815/project_0309/build/part5/date",
+  "command": "/usr/bin/gcc  -I/home/jinatina815/project_0309/part5/date -g -o CMakeFiles/date.dir/main.c.o -c /home/jinatina815/project_0309/part5/date/main.c",
+  "file": "/home/jinatina815/project_0309/part5/date/main.c",
+  "output": "part5/date/CMakeFiles/date.dir/main.c.o"
+},
+{
+  "directory": "/home/jinatina815/project_0309/build/part5/date",
+  "command": "/usr/bin/gcc  -I/home/jinatina815/project_0309/part5/date -g -o CMakeFiles/date.dir/date.c.o -c /home/jinatina815/project_0309/part5/date/date.c",
+  "file": "/home/jinatina815/project_0309/part5/date/date.c",
+  "output": "part5/date/CMakeFiles/date.dir/date.c.o"
+},
+{
+  "directory": "/home/jinatina815/project_0309/build/part5/twoDouble",
+  "command": "/usr/bin/gcc  -I/home/jinatina815/project_0309/part5/twoDouble -g -o CMakeFiles/twoDouble.dir/main.c.o -c /home/jinatina815/project_0309/part5/twoDouble/main.c",
+  "file": "/home/jinatina815/project_0309/part5/twoDouble/main.c",
+  "output": "part5/twoDouble/CMakeFiles/twoDouble.dir/main.c.o"
+},
+{
+  "directory": "/home/jinatina815/project_0309/build/part5/twoDouble",
+  "command": "/usr/bin/gcc  -I/home/jinatina815/project_0309/part5/twoDouble -g -o CMakeFiles/twoDouble.dir/twoDouble.c.o -c /home/jinatina815/project_0309/part5/twoDouble/twoDouble.c",
+  "file": "/home/jinatina815/project_0309/part5/twoDouble/twoDouble.c",
+  "output": "part5/twoDouble/CMakeFiles/twoDouble.dir/twoDouble.c.o"
+},
+{
+  "directory": "/home/jinatina815/project_0309/build/part6/scoreProcess",
+  "command": "/usr/bin/gcc  -I/home/jinatina815/project_0309/part6/scoreProcess -g -o CMakeFiles/scoreProcess.dir/main.c.o -c /home/jinatina815/project_0309/part6/scoreProcess/main.c",
+  "file": "/home/jinatina815/project_0309/part6/scoreProcess/main.c",
+  "output": "part6/scoreProcess/CMakeFiles/scoreProcess.dir/main.c.o"
+},
+{
+  "directory": "/home/jinatina815/project_0309/build/part6/scoreProcess",
+  "command": "/usr/bin/gcc  -I/home/jinatina815/project_0309/part6/scoreProcess -g -o CMakeFiles/scoreProcess.dir/scoreProcess.c.o -c /home/jinatina815/project_0309/part6/scoreProcess/scoreProcess.c",
+  "file": "/home/jinatina815/project_0309/part6/scoreProcess/scoreProcess.c",
+  "output": "part6/scoreProcess/CMakeFiles/scoreProcess.dir/scoreProcess.c.o"
+}
+]

@@ -1,0 +1,1 @@
+/usr/bin/gcc -g CMakeFiles/selectionSorting.dir/selectionSorting.c.o -o selectionSorting 

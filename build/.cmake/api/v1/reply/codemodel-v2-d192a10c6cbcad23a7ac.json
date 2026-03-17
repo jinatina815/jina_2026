@@ -1,0 +1,159 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						2,
+						3
+					],
+					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"projectIndex" : 0,
+					"source" : "."
+				},
+				{
+					"build" : "part5/date",
+					"jsonFile" : "directory-part5.date-Debug-ac3a75fdd613a9cd6b1f.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 1,
+					"source" : "part5/date",
+					"targetIndexes" : 
+					[
+						0
+					]
+				},
+				{
+					"build" : "part5/twoDouble",
+					"jsonFile" : "directory-part5.twoDouble-Debug-dd99c534797d8f2b00fd.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 2,
+					"source" : "part5/twoDouble",
+					"targetIndexes" : 
+					[
+						2
+					]
+				},
+				{
+					"build" : "part6/scoreProcess",
+					"jsonFile" : "directory-part6.scoreProcess-Debug-fe0e416ac4d6b1ab72f3.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 3,
+					"source" : "part6/scoreProcess",
+					"targetIndexes" : 
+					[
+						1
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1,
+						2,
+						3
+					],
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "kuBig2026"
+				},
+				{
+					"directoryIndexes" : 
+					[
+						1
+					],
+					"name" : "date",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						0
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						2
+					],
+					"name" : "twoDouble",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						2
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						3
+					],
+					"name" : "scoreProcess",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						1
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 1,
+					"id" : "date::@a97b0853da044d5c9c6a",
+					"jsonFile" : "target-date-Debug-b73926d48b33fee69b01.json",
+					"name" : "date",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "scoreProcess::@95c80d1bdc2868ad15b1",
+					"jsonFile" : "target-scoreProcess-Debug-9e8e7c94a080aac71b71.json",
+					"name" : "scoreProcess",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "twoDouble::@715a30e2b73014557275",
+					"jsonFile" : "target-twoDouble-Debug-81641eaaebbecae5bd95.json",
+					"name" : "twoDouble",
+					"projectIndex" : 2
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/jinatina815/project_0309/build",
+		"source" : "/home/jinatina815/project_0309"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

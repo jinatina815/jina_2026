@@ -1,0 +1,1 @@
+/usr/bin/gcc -g CMakeFiles/pointerAndAway.dir/pointerAndAway.c.o -o pointerAndAway 

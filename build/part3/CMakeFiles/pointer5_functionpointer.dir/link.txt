@@ -1,0 +1,1 @@
+/usr/bin/gcc -g CMakeFiles/pointer5_functionpointer.dir/pointer5_functionpointer.c.o -o pointer5_functionpointer 

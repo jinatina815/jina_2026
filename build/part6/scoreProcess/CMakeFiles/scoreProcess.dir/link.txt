@@ -1,0 +1,1 @@
+/usr/bin/gcc -g CMakeFiles/scoreProcess.dir/main.c.o CMakeFiles/scoreProcess.dir/scoreProcess.c.o -o scoreProcess 
