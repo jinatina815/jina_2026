@@ -47,6 +47,10 @@ if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   include("/home/jinatina815/project_0309/build/part5/date/cmake_install.cmake")
   include("/home/jinatina815/project_0309/build/part5/twoDouble/cmake_install.cmake")
   include("/home/jinatina815/project_0309/build/part6/scoreProcess/cmake_install.cmake")
+  include("/home/jinatina815/project_0309/build/ds/stack/myStack3/cmake_install.cmake")
+  include("/home/jinatina815/project_0309/build/ds/stack/myStack4/cmake_install.cmake")
+  include("/home/jinatina815/project_0309/build/network/cmake_install.cmake")
+  include("/home/jinatina815/project_0309/build/ds/queue/queue3/cmake_install.cmake")
 
 endif()
 

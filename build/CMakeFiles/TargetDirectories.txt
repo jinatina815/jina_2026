@@ -9,3 +9,15 @@
 /home/jinatina815/project_0309/build/part6/scoreProcess/CMakeFiles/scoreProcess.dir
 /home/jinatina815/project_0309/build/part6/scoreProcess/CMakeFiles/edit_cache.dir
 /home/jinatina815/project_0309/build/part6/scoreProcess/CMakeFiles/rebuild_cache.dir
+/home/jinatina815/project_0309/build/ds/stack/myStack3/CMakeFiles/stack3.dir
+/home/jinatina815/project_0309/build/ds/stack/myStack3/CMakeFiles/edit_cache.dir
+/home/jinatina815/project_0309/build/ds/stack/myStack3/CMakeFiles/rebuild_cache.dir
+/home/jinatina815/project_0309/build/ds/stack/myStack4/CMakeFiles/stack4.dir
+/home/jinatina815/project_0309/build/ds/stack/myStack4/CMakeFiles/edit_cache.dir
+/home/jinatina815/project_0309/build/ds/stack/myStack4/CMakeFiles/rebuild_cache.dir
+/home/jinatina815/project_0309/build/network/CMakeFiles/mqttPub.dir
+/home/jinatina815/project_0309/build/network/CMakeFiles/edit_cache.dir
+/home/jinatina815/project_0309/build/network/CMakeFiles/rebuild_cache.dir
+/home/jinatina815/project_0309/build/ds/queue/queue3/CMakeFiles/queue3.dir
+/home/jinatina815/project_0309/build/ds/queue/queue3/CMakeFiles/edit_cache.dir
+/home/jinatina815/project_0309/build/ds/queue/queue3/CMakeFiles/rebuild_cache.dir

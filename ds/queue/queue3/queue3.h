@@ -1,0 +1,19 @@
+#pragma once
+#include <stdio.h>
+#include <stdlib.h>
+
+
+typedef struct 
+{
+    void *pArr;
+    int eleSize;
+    int *front;
+    int *rear;
+    int size;
+} Qu;
+
+void initQueue(Qu *pQu, int size, int elesize);
+void cleanupQueue(Qu *pQu);
+void push(Qu *pQu, const void *pData);
+void pop(Qu *pQu, void *pData);
+int size(Qu *pQu);

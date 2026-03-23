@@ -7,3 +7,22 @@ set(CMAKE_CXX_STANDARD 17)
 add_subdirectory(part5/date)
 add_subdirectory(part5/twoDouble)
 add_subdirectory(part6/scoreProcess)
+# add_subdirectory(ds/stack/myStack1)
+# add_subdirectory(ds/queue/myQueue2)
+# add_subdirectory(ds/queue/myQueue2)
+add_subdirectory(ds/stack/myStack3)
+add_subdirectory(ds/stack/myStack4)
+add_subdirectory(network)
+add_subdirectory(ds/queue/queue3)
+add_subdirectory(bowling)
+
+ExternalProject_Add
+(atmega128_project
+	SOURCE_DIR ${CMAKE_SOURCE_DIR}/atmega128
+	BINARY_DIR ${CMAKE_BINARY_DIR}/atmega128-build
+	CMAKE_ARGS
+		-DCMAKE_TOOLCHAIN_FILE=${CMAKE_SOURCE_DIR}/atmega128/avr-toolchain.cmake
+		-DCMAKE_BUILD_TYPE=${CMAKE_BUILD_TYPE}
+		-DCMAKE_EXPORT_COMPILE_COMMANDS=ON
+	INSTALL_COMMAND ""
+)

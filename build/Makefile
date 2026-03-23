@@ -155,6 +155,58 @@ scoreProcess/fast:
 	$(MAKE) $(MAKESILENT) -f part6/scoreProcess/CMakeFiles/scoreProcess.dir/build.make part6/scoreProcess/CMakeFiles/scoreProcess.dir/build
 .PHONY : scoreProcess/fast
 
+#=============================================================================
+# Target rules for targets named stack3
+
+# Build rule for target.
+stack3: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 stack3
+.PHONY : stack3
+
+# fast build rule for target.
+stack3/fast:
+	$(MAKE) $(MAKESILENT) -f ds/stack/myStack3/CMakeFiles/stack3.dir/build.make ds/stack/myStack3/CMakeFiles/stack3.dir/build
+.PHONY : stack3/fast
+
+#=============================================================================
+# Target rules for targets named stack4
+
+# Build rule for target.
+stack4: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 stack4
+.PHONY : stack4
+
+# fast build rule for target.
+stack4/fast:
+	$(MAKE) $(MAKESILENT) -f ds/stack/myStack4/CMakeFiles/stack4.dir/build.make ds/stack/myStack4/CMakeFiles/stack4.dir/build
+.PHONY : stack4/fast
+
+#=============================================================================
+# Target rules for targets named mqttPub
+
+# Build rule for target.
+mqttPub: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 mqttPub
+.PHONY : mqttPub
+
+# fast build rule for target.
+mqttPub/fast:
+	$(MAKE) $(MAKESILENT) -f network/CMakeFiles/mqttPub.dir/build.make network/CMakeFiles/mqttPub.dir/build
+.PHONY : mqttPub/fast
+
+#=============================================================================
+# Target rules for targets named queue3
+
+# Build rule for target.
+queue3: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 queue3
+.PHONY : queue3
+
+# fast build rule for target.
+queue3/fast:
+	$(MAKE) $(MAKESILENT) -f ds/queue/queue3/CMakeFiles/queue3.dir/build.make ds/queue/queue3/CMakeFiles/queue3.dir/build
+.PHONY : queue3/fast
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -164,7 +216,11 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... date"
+	@echo "... mqttPub"
+	@echo "... queue3"
 	@echo "... scoreProcess"
+	@echo "... stack3"
+	@echo "... stack4"
 	@echo "... twoDouble"
 .PHONY : help
 
