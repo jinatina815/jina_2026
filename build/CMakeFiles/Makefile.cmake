@@ -11,10 +11,7 @@ set(CMAKE_MAKEFILE_DEPENDS
   "CMakeFiles/3.28.3/CMakeCCompiler.cmake"
   "CMakeFiles/3.28.3/CMakeCXXCompiler.cmake"
   "CMakeFiles/3.28.3/CMakeSystem.cmake"
-  "/home/jinatina815/project_0309/ds/queue/queue3/CMakeLists.txt"
-  "/home/jinatina815/project_0309/ds/stack/myStack3/CMakeLists.txt"
-  "/home/jinatina815/project_0309/ds/stack/myStack4/CMakeLists.txt"
-  "/home/jinatina815/project_0309/network/CMakeLists.txt"
+  "atmega128_project-prefix/tmp/atmega128_project-mkdirs.cmake"
   "/home/jinatina815/project_0309/part5/date/CMakeLists.txt"
   "/home/jinatina815/project_0309/part5/twoDouble/CMakeLists.txt"
   "/home/jinatina815/project_0309/part6/scoreProcess/CMakeLists.txt"
@@ -30,6 +27,13 @@ set(CMAKE_MAKEFILE_DEPENDS
   "/usr/share/cmake-3.28/Modules/Compiler/GNU-C.cmake"
   "/usr/share/cmake-3.28/Modules/Compiler/GNU-CXX.cmake"
   "/usr/share/cmake-3.28/Modules/Compiler/GNU.cmake"
+  "/usr/share/cmake-3.28/Modules/ExternalProject.cmake"
+  "/usr/share/cmake-3.28/Modules/ExternalProject/PatchInfo.txt.in"
+  "/usr/share/cmake-3.28/Modules/ExternalProject/RepositoryInfo.txt.in"
+  "/usr/share/cmake-3.28/Modules/ExternalProject/UpdateInfo.txt.in"
+  "/usr/share/cmake-3.28/Modules/ExternalProject/cfgcmd.txt.in"
+  "/usr/share/cmake-3.28/Modules/ExternalProject/mkdirs.cmake.in"
+  "/usr/share/cmake-3.28/Modules/ExternalProject/shared_internal_commands.cmake"
   "/usr/share/cmake-3.28/Modules/Platform/Linux-GNU-C.cmake"
   "/usr/share/cmake-3.28/Modules/Platform/Linux-GNU-CXX.cmake"
   "/usr/share/cmake-3.28/Modules/Platform/Linux-GNU.cmake"
@@ -46,23 +50,21 @@ set(CMAKE_MAKEFILE_OUTPUTS
 
 # Byproducts of CMake generate step:
 set(CMAKE_MAKEFILE_PRODUCTS
+  "atmega128_project-prefix/tmp/atmega128_project-mkdirs.cmake"
+  "atmega128_project-prefix/src/atmega128_project-stamp/atmega128_project-source_dirinfo.txt"
+  "atmega128_project-prefix/src/atmega128_project-stamp/atmega128_project-update-info.txt"
+  "atmega128_project-prefix/src/atmega128_project-stamp/atmega128_project-patch-info.txt"
+  "atmega128_project-prefix/tmp/atmega128_project-cfgcmd.txt"
   "CMakeFiles/CMakeDirectoryInformation.cmake"
   "part5/date/CMakeFiles/CMakeDirectoryInformation.cmake"
   "part5/twoDouble/CMakeFiles/CMakeDirectoryInformation.cmake"
   "part6/scoreProcess/CMakeFiles/CMakeDirectoryInformation.cmake"
-  "ds/stack/myStack3/CMakeFiles/CMakeDirectoryInformation.cmake"
-  "ds/stack/myStack4/CMakeFiles/CMakeDirectoryInformation.cmake"
-  "network/CMakeFiles/CMakeDirectoryInformation.cmake"
-  "ds/queue/queue3/CMakeFiles/CMakeDirectoryInformation.cmake"
   )
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
+  "CMakeFiles/atmega128_project.dir/DependInfo.cmake"
   "part5/date/CMakeFiles/date.dir/DependInfo.cmake"
   "part5/twoDouble/CMakeFiles/twoDouble.dir/DependInfo.cmake"
   "part6/scoreProcess/CMakeFiles/scoreProcess.dir/DependInfo.cmake"
-  "ds/stack/myStack3/CMakeFiles/stack3.dir/DependInfo.cmake"
-  "ds/stack/myStack4/CMakeFiles/stack4.dir/DependInfo.cmake"
-  "network/CMakeFiles/mqttPub.dir/DependInfo.cmake"
-  "ds/queue/queue3/CMakeFiles/queue3.dir/DependInfo.cmake"
   )

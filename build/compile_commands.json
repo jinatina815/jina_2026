@@ -34,47 +34,5 @@
   "command": "/usr/bin/gcc  -I/home/jinatina815/project_0309/part6/scoreProcess -g -o CMakeFiles/scoreProcess.dir/scoreProcess.c.o -c /home/jinatina815/project_0309/part6/scoreProcess/scoreProcess.c",
   "file": "/home/jinatina815/project_0309/part6/scoreProcess/scoreProcess.c",
   "output": "part6/scoreProcess/CMakeFiles/scoreProcess.dir/scoreProcess.c.o"
-},
-{
-  "directory": "/home/jinatina815/project_0309/build/ds/stack/myStack3",
-  "command": "/usr/bin/gcc  -I/home/jinatina815/project_0309/ds/stack/myStack3 -g -o CMakeFiles/stack3.dir/main.c.o -c /home/jinatina815/project_0309/ds/stack/myStack3/main.c",
-  "file": "/home/jinatina815/project_0309/ds/stack/myStack3/main.c",
-  "output": "ds/stack/myStack3/CMakeFiles/stack3.dir/main.c.o"
-},
-{
-  "directory": "/home/jinatina815/project_0309/build/ds/stack/myStack3",
-  "command": "/usr/bin/gcc  -I/home/jinatina815/project_0309/ds/stack/myStack3 -g -o CMakeFiles/stack3.dir/stack3.c.o -c /home/jinatina815/project_0309/ds/stack/myStack3/stack3.c",
-  "file": "/home/jinatina815/project_0309/ds/stack/myStack3/stack3.c",
-  "output": "ds/stack/myStack3/CMakeFiles/stack3.dir/stack3.c.o"
-},
-{
-  "directory": "/home/jinatina815/project_0309/build/ds/stack/myStack4",
-  "command": "/usr/bin/gcc  -I/home/jinatina815/project_0309/ds/stack/myStack4 -g -o CMakeFiles/stack4.dir/main.c.o -c /home/jinatina815/project_0309/ds/stack/myStack4/main.c",
-  "file": "/home/jinatina815/project_0309/ds/stack/myStack4/main.c",
-  "output": "ds/stack/myStack4/CMakeFiles/stack4.dir/main.c.o"
-},
-{
-  "directory": "/home/jinatina815/project_0309/build/ds/stack/myStack4",
-  "command": "/usr/bin/gcc  -I/home/jinatina815/project_0309/ds/stack/myStack4 -g -o CMakeFiles/stack4.dir/stack4.c.o -c /home/jinatina815/project_0309/ds/stack/myStack4/stack4.c",
-  "file": "/home/jinatina815/project_0309/ds/stack/myStack4/stack4.c",
-  "output": "ds/stack/myStack4/CMakeFiles/stack4.dir/stack4.c.o"
-},
-{
-  "directory": "/home/jinatina815/project_0309/build/network",
-  "command": "/usr/bin/gcc  -I/home/jinatina815/project_0309/network -g -o CMakeFiles/mqttPub.dir/mqttPub.c.o -c /home/jinatina815/project_0309/network/mqttPub.c",
-  "file": "/home/jinatina815/project_0309/network/mqttPub.c",
-  "output": "network/CMakeFiles/mqttPub.dir/mqttPub.c.o"
-},
-{
-  "directory": "/home/jinatina815/project_0309/build/ds/queue/queue3",
-  "command": "/usr/bin/gcc  -I/home/jinatina815/project_0309/ds/queue/queue3 -g -o CMakeFiles/queue3.dir/main.c.o -c /home/jinatina815/project_0309/ds/queue/queue3/main.c",
-  "file": "/home/jinatina815/project_0309/ds/queue/queue3/main.c",
-  "output": "ds/queue/queue3/CMakeFiles/queue3.dir/main.c.o"
-},
-{
-  "directory": "/home/jinatina815/project_0309/build/ds/queue/queue3",
-  "command": "/usr/bin/gcc  -I/home/jinatina815/project_0309/ds/queue/queue3 -g -o CMakeFiles/queue3.dir/queue3.c.o -c /home/jinatina815/project_0309/ds/queue/queue3/queue3.c",
-  "file": "/home/jinatina815/project_0309/ds/queue/queue3/queue3.c",
-  "output": "ds/queue/queue3/CMakeFiles/queue3.dir/queue3.c.o"
 }
 ]

@@ -214,18 +214,6 @@ CMAKE_TAPI:FILEPATH=CMAKE_TAPI-NOTFOUND
 // Studio IDE projects all commands are done without /nologo.
 CMAKE_VERBOSE_MAKEFILE:BOOL=FALSE
 
-//Path to a library.
-PAHO_MQTT_LTB:FILEPATH=/usr/lib/x86_64-linux-gnu/libpaho-mqtt3c.so
-
-//Value Computed by CMake
-baseballGame_BINARY_DIR:STATIC=/home/jinatina815/project_0309/build/part4/baseballGame
-
-//Value Computed by CMake
-baseballGame_IS_TOP_LEVEL:STATIC=OFF
-
-//Value Computed by CMake
-baseballGame_SOURCE_DIR:STATIC=/home/jinatina815/project_0309/part4/baseballGame
-
 //Value Computed by CMake
 date_BINARY_DIR:STATIC=/home/jinatina815/project_0309/build/part5/date
 
@@ -245,24 +233,6 @@ kuBig2026_IS_TOP_LEVEL:STATIC=ON
 kuBig2026_SOURCE_DIR:STATIC=/home/jinatina815/project_0309
 
 //Value Computed by CMake
-mqttPub_BINARY_DIR:STATIC=/home/jinatina815/project_0309/build/network
-
-//Value Computed by CMake
-mqttPub_IS_TOP_LEVEL:STATIC=OFF
-
-//Value Computed by CMake
-mqttPub_SOURCE_DIR:STATIC=/home/jinatina815/project_0309/network
-
-//Value Computed by CMake
-queue3_BINARY_DIR:STATIC=/home/jinatina815/project_0309/build/ds/queue/queue3
-
-//Value Computed by CMake
-queue3_IS_TOP_LEVEL:STATIC=OFF
-
-//Value Computed by CMake
-queue3_SOURCE_DIR:STATIC=/home/jinatina815/project_0309/ds/queue/queue3
-
-//Value Computed by CMake
 scoreProcess_BINARY_DIR:STATIC=/home/jinatina815/project_0309/build/part6/scoreProcess
 
 //Value Computed by CMake
@@ -270,24 +240,6 @@ scoreProcess_IS_TOP_LEVEL:STATIC=OFF
 
 //Value Computed by CMake
 scoreProcess_SOURCE_DIR:STATIC=/home/jinatina815/project_0309/part6/scoreProcess
-
-//Value Computed by CMake
-stack3_BINARY_DIR:STATIC=/home/jinatina815/project_0309/build/ds/stack/myStack3
-
-//Value Computed by CMake
-stack3_IS_TOP_LEVEL:STATIC=OFF
-
-//Value Computed by CMake
-stack3_SOURCE_DIR:STATIC=/home/jinatina815/project_0309/ds/stack/myStack3
-
-//Value Computed by CMake
-stack4_BINARY_DIR:STATIC=/home/jinatina815/project_0309/build/ds/stack/myStack4
-
-//Value Computed by CMake
-stack4_IS_TOP_LEVEL:STATIC=OFF
-
-//Value Computed by CMake
-stack4_SOURCE_DIR:STATIC=/home/jinatina815/project_0309/ds/stack/myStack4
 
 //Value Computed by CMake
 twoDouble_BINARY_DIR:STATIC=/home/jinatina815/project_0309/build/part5/twoDouble
@@ -401,7 +353,7 @@ CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_NM
 CMAKE_NM-ADVANCED:INTERNAL=1
 //number of local generators
-CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=1
+CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=4
 //ADVANCED property for variable: CMAKE_OBJCOPY
 CMAKE_OBJCOPY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_OBJDUMP
