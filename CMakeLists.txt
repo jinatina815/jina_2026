@@ -17,6 +17,7 @@ add_subdirectory(part6/scoreProcess)
 # add_subdirectory(network)
 # add_subdirectory(ds/queue/queue3)
 # add_subdirectory(bowling)
+add_subdirectory(opencv_ex)
 
 ExternalProject_Add(atmega128_project
 	SOURCE_DIR ${CMAKE_SOURCE_DIR}/atmega128
