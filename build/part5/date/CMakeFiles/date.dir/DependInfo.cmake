@@ -8,16 +8,12 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/jinatina815/project_0309/part5/date/date.c" "part5/date/CMakeFiles/date.dir/date.c.o" "gcc" "part5/date/CMakeFiles/date.dir/date.c.o.d"
-  "/home/jinatina815/project_0309/part5/date/main.c" "part5/date/CMakeFiles/date.dir/main.c.o" "gcc" "part5/date/CMakeFiles/date.dir/main.c.o.d"
+  "/home/aa/jina_2026/part5/date/date.c" "part5/date/CMakeFiles/date.dir/date.c.o" "gcc" "part5/date/CMakeFiles/date.dir/date.c.o.d"
+  "/home/aa/jina_2026/part5/date/main.c" "part5/date/CMakeFiles/date.dir/main.c.o" "gcc" "part5/date/CMakeFiles/date.dir/main.c.o.d"
   )
 
-# Targets to which this target links which contain Fortran sources.
-set(CMAKE_Fortran_TARGET_LINKED_INFO_FILES
-  )
-
-# Targets to which this target links which contain Fortran sources.
-set(CMAKE_Fortran_TARGET_FORWARD_LINKED_INFO_FILES
+# Targets to which this target links.
+set(CMAKE_TARGET_LINKED_INFO_FILES
   )
 
 # Fortran module output directory.
