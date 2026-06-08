@@ -91,6 +91,7 @@ opencv_ex/all: opencv_ex/CMakeFiles/01_helloWorld.dir/all
 opencv_ex/all: opencv_ex/CMakeFiles/02_basic0p.dir/all
 opencv_ex/all: opencv_ex/CMakeFiles/03_matOp.dir/all
 opencv_ex/all: opencv_ex/CMakeFiles/04_inputArray.dir/all
+opencv_ex/all: opencv_ex/CMakeFiles/05_matOp2.dir/all
 .PHONY : opencv_ex/all
 
 # Recursive "preinstall" directory target.
@@ -102,6 +103,7 @@ opencv_ex/clean: opencv_ex/CMakeFiles/01_helloWorld.dir/clean
 opencv_ex/clean: opencv_ex/CMakeFiles/02_basic0p.dir/clean
 opencv_ex/clean: opencv_ex/CMakeFiles/03_matOp.dir/clean
 opencv_ex/clean: opencv_ex/CMakeFiles/04_inputArray.dir/clean
+opencv_ex/clean: opencv_ex/CMakeFiles/05_matOp2.dir/clean
 .PHONY : opencv_ex/clean
 
 #=============================================================================
@@ -156,7 +158,7 @@ part6/scoreProcess/clean: part6/scoreProcess/CMakeFiles/scoreProcess.dir/clean
 part5/date/CMakeFiles/date.dir/all:
 	$(MAKE) $(MAKESILENT) -f part5/date/CMakeFiles/date.dir/build.make part5/date/CMakeFiles/date.dir/depend
 	$(MAKE) $(MAKESILENT) -f part5/date/CMakeFiles/date.dir/build.make part5/date/CMakeFiles/date.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/aa/jina_2026/build/CMakeFiles --progress-num=9,10,11 "Built target date"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/aa/jina_2026/build/CMakeFiles --progress-num=11,12,13 "Built target date"
 .PHONY : part5/date/CMakeFiles/date.dir/all
 
 # Build rule for subdir invocation for target.
@@ -182,7 +184,7 @@ part5/date/CMakeFiles/date.dir/clean:
 part5/twoDouble/CMakeFiles/twoDouble.dir/all:
 	$(MAKE) $(MAKESILENT) -f part5/twoDouble/CMakeFiles/twoDouble.dir/build.make part5/twoDouble/CMakeFiles/twoDouble.dir/depend
 	$(MAKE) $(MAKESILENT) -f part5/twoDouble/CMakeFiles/twoDouble.dir/build.make part5/twoDouble/CMakeFiles/twoDouble.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/aa/jina_2026/build/CMakeFiles --progress-num=15,16,17 "Built target twoDouble"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/aa/jina_2026/build/CMakeFiles --progress-num=17,18,19 "Built target twoDouble"
 .PHONY : part5/twoDouble/CMakeFiles/twoDouble.dir/all
 
 # Build rule for subdir invocation for target.
@@ -208,7 +210,7 @@ part5/twoDouble/CMakeFiles/twoDouble.dir/clean:
 part6/scoreProcess/CMakeFiles/scoreProcess.dir/all:
 	$(MAKE) $(MAKESILENT) -f part6/scoreProcess/CMakeFiles/scoreProcess.dir/build.make part6/scoreProcess/CMakeFiles/scoreProcess.dir/depend
 	$(MAKE) $(MAKESILENT) -f part6/scoreProcess/CMakeFiles/scoreProcess.dir/build.make part6/scoreProcess/CMakeFiles/scoreProcess.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/aa/jina_2026/build/CMakeFiles --progress-num=12,13,14 "Built target scoreProcess"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/aa/jina_2026/build/CMakeFiles --progress-num=14,15,16 "Built target scoreProcess"
 .PHONY : part6/scoreProcess/CMakeFiles/scoreProcess.dir/all
 
 # Build rule for subdir invocation for target.
@@ -330,6 +332,32 @@ opencv_ex/CMakeFiles/04_inputArray.dir/rule: cmake_check_build_system
 opencv_ex/CMakeFiles/04_inputArray.dir/clean:
 	$(MAKE) $(MAKESILENT) -f opencv_ex/CMakeFiles/04_inputArray.dir/build.make opencv_ex/CMakeFiles/04_inputArray.dir/clean
 .PHONY : opencv_ex/CMakeFiles/04_inputArray.dir/clean
+
+#=============================================================================
+# Target rules for target opencv_ex/CMakeFiles/05_matOp2.dir
+
+# All Build rule for target.
+opencv_ex/CMakeFiles/05_matOp2.dir/all:
+	$(MAKE) $(MAKESILENT) -f opencv_ex/CMakeFiles/05_matOp2.dir/build.make opencv_ex/CMakeFiles/05_matOp2.dir/depend
+	$(MAKE) $(MAKESILENT) -f opencv_ex/CMakeFiles/05_matOp2.dir/build.make opencv_ex/CMakeFiles/05_matOp2.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/aa/jina_2026/build/CMakeFiles --progress-num=9,10 "Built target 05_matOp2"
+.PHONY : opencv_ex/CMakeFiles/05_matOp2.dir/all
+
+# Build rule for subdir invocation for target.
+opencv_ex/CMakeFiles/05_matOp2.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/aa/jina_2026/build/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 opencv_ex/CMakeFiles/05_matOp2.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/aa/jina_2026/build/CMakeFiles 0
+.PHONY : opencv_ex/CMakeFiles/05_matOp2.dir/rule
+
+# Convenience name for target.
+05_matOp2: opencv_ex/CMakeFiles/05_matOp2.dir/rule
+.PHONY : 05_matOp2
+
+# clean rule for target.
+opencv_ex/CMakeFiles/05_matOp2.dir/clean:
+	$(MAKE) $(MAKESILENT) -f opencv_ex/CMakeFiles/05_matOp2.dir/build.make opencv_ex/CMakeFiles/05_matOp2.dir/clean
+.PHONY : opencv_ex/CMakeFiles/05_matOp2.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

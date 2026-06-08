@@ -13,5 +13,6 @@
 /home/aa/jina_2026/build/opencv_ex/CMakeFiles/02_basic0p.dir
 /home/aa/jina_2026/build/opencv_ex/CMakeFiles/03_matOp.dir
 /home/aa/jina_2026/build/opencv_ex/CMakeFiles/04_inputArray.dir
+/home/aa/jina_2026/build/opencv_ex/CMakeFiles/05_matOp2.dir
 /home/aa/jina_2026/build/opencv_ex/CMakeFiles/edit_cache.dir
 /home/aa/jina_2026/build/opencv_ex/CMakeFiles/rebuild_cache.dir

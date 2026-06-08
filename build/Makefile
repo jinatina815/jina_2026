@@ -207,6 +207,19 @@ scoreProcess/fast:
 	$(MAKE) $(MAKESILENT) -f opencv_ex/CMakeFiles/04_inputArray.dir/build.make opencv_ex/CMakeFiles/04_inputArray.dir/build
 .PHONY : 04_inputArray/fast
 
+#=============================================================================
+# Target rules for targets named 05_matOp2
+
+# Build rule for target.
+05_matOp2: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 05_matOp2
+.PHONY : 05_matOp2
+
+# fast build rule for target.
+05_matOp2/fast:
+	$(MAKE) $(MAKESILENT) -f opencv_ex/CMakeFiles/05_matOp2.dir/build.make opencv_ex/CMakeFiles/05_matOp2.dir/build
+.PHONY : 05_matOp2/fast
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -219,6 +232,7 @@ help:
 	@echo "... 02_basic0p"
 	@echo "... 03_matOp"
 	@echo "... 04_inputArray"
+	@echo "... 05_matOp2"
 	@echo "... date"
 	@echo "... scoreProcess"
 	@echo "... twoDouble"
