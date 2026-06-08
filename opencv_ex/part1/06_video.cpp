@@ -9,7 +9,7 @@ String folderPath = "/home/aa/kuBig2026/opencv_ex/data/";
 
 int main()
 {
-    VideoCapture cap(0);
+    VideoCapture cap(0, CAP_V4L2);
     if (!cap.isOpened())
     {
         cerr << "카메라를 열수 없습니다." << endl;
