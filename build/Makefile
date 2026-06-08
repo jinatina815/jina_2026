@@ -181,6 +181,19 @@ scoreProcess/fast:
 	$(MAKE) $(MAKESILENT) -f opencv_ex/CMakeFiles/02_basic0p.dir/build.make opencv_ex/CMakeFiles/02_basic0p.dir/build
 .PHONY : 02_basic0p/fast
 
+#=============================================================================
+# Target rules for targets named 03_matOp
+
+# Build rule for target.
+03_matOp: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 03_matOp
+.PHONY : 03_matOp
+
+# fast build rule for target.
+03_matOp/fast:
+	$(MAKE) $(MAKESILENT) -f opencv_ex/CMakeFiles/03_matOp.dir/build.make opencv_ex/CMakeFiles/03_matOp.dir/build
+.PHONY : 03_matOp/fast
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -191,6 +204,7 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... 01_helloWorld"
 	@echo "... 02_basic0p"
+	@echo "... 03_matOp"
 	@echo "... date"
 	@echo "... scoreProcess"
 	@echo "... twoDouble"
