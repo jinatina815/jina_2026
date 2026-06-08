@@ -64,4 +64,5 @@ set(CMAKE_DEPEND_INFO_FILES
   "opencv_ex/CMakeFiles/01_helloWorld.dir/DependInfo.cmake"
   "opencv_ex/CMakeFiles/02_basic0p.dir/DependInfo.cmake"
   "opencv_ex/CMakeFiles/03_matOp.dir/DependInfo.cmake"
+  "opencv_ex/CMakeFiles/04_inputArray.dir/DependInfo.cmake"
   )
