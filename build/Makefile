@@ -220,6 +220,45 @@ scoreProcess/fast:
 	$(MAKE) $(MAKESILENT) -f opencv_ex/CMakeFiles/05_matOp2.dir/build.make opencv_ex/CMakeFiles/05_matOp2.dir/build
 .PHONY : 05_matOp2/fast
 
+#=============================================================================
+# Target rules for targets named 06_video
+
+# Build rule for target.
+06_video: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 06_video
+.PHONY : 06_video
+
+# fast build rule for target.
+06_video/fast:
+	$(MAKE) $(MAKESILENT) -f opencv_ex/CMakeFiles/06_video.dir/build.make opencv_ex/CMakeFiles/06_video.dir/build
+.PHONY : 06_video/fast
+
+#=============================================================================
+# Target rules for targets named 09_videoSave
+
+# Build rule for target.
+09_videoSave: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 09_videoSave
+.PHONY : 09_videoSave
+
+# fast build rule for target.
+09_videoSave/fast:
+	$(MAKE) $(MAKESILENT) -f opencv_ex/part2/CMakeFiles/09_videoSave.dir/build.make opencv_ex/part2/CMakeFiles/09_videoSave.dir/build
+.PHONY : 09_videoSave/fast
+
+#=============================================================================
+# Target rules for targets named 10_drawing
+
+# Build rule for target.
+10_drawing: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 10_drawing
+.PHONY : 10_drawing
+
+# fast build rule for target.
+10_drawing/fast:
+	$(MAKE) $(MAKESILENT) -f opencv_ex/part2/CMakeFiles/10_drawing.dir/build.make opencv_ex/part2/CMakeFiles/10_drawing.dir/build
+.PHONY : 10_drawing/fast
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -233,6 +272,9 @@ help:
 	@echo "... 03_matOp"
 	@echo "... 04_inputArray"
 	@echo "... 05_matOp2"
+	@echo "... 06_video"
+	@echo "... 09_videoSave"
+	@echo "... 10_drawing"
 	@echo "... date"
 	@echo "... scoreProcess"
 	@echo "... twoDouble"
