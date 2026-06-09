@@ -76,4 +76,5 @@ set(CMAKE_DEPEND_INFO_FILES
   "opencv_ex/part2/CMakeFiles/13_font.dir/DependInfo.cmake"
   "opencv_ex/part2/CMakeFiles/14_freetype.dir/DependInfo.cmake"
   "opencv_ex/part2/CMakeFiles/15_keyboard.dir/DependInfo.cmake"
+  "opencv_ex/part2/CMakeFiles/16_tick.dir/DependInfo.cmake"
   )
