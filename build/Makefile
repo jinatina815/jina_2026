@@ -285,6 +285,32 @@ scoreProcess/fast:
 	$(MAKE) $(MAKESILENT) -f opencv_ex/part2/CMakeFiles/12_drawing_example.dir/build.make opencv_ex/part2/CMakeFiles/12_drawing_example.dir/build
 .PHONY : 12_drawing_example/fast
 
+#=============================================================================
+# Target rules for targets named 13_font
+
+# Build rule for target.
+13_font: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 13_font
+.PHONY : 13_font
+
+# fast build rule for target.
+13_font/fast:
+	$(MAKE) $(MAKESILENT) -f opencv_ex/part2/CMakeFiles/13_font.dir/build.make opencv_ex/part2/CMakeFiles/13_font.dir/build
+.PHONY : 13_font/fast
+
+#=============================================================================
+# Target rules for targets named 14_freetype
+
+# Build rule for target.
+14_freetype: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 14_freetype
+.PHONY : 14_freetype
+
+# fast build rule for target.
+14_freetype/fast:
+	$(MAKE) $(MAKESILENT) -f opencv_ex/part2/CMakeFiles/14_freetype.dir/build.make opencv_ex/part2/CMakeFiles/14_freetype.dir/build
+.PHONY : 14_freetype/fast
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -303,6 +329,8 @@ help:
 	@echo "... 10_drawing"
 	@echo "... 11_drawing_example"
 	@echo "... 12_drawing_example"
+	@echo "... 13_font"
+	@echo "... 14_freetype"
 	@echo "... date"
 	@echo "... scoreProcess"
 	@echo "... twoDouble"

@@ -21,5 +21,7 @@
 /home/aa/jina_2026/build/opencv_ex/part2/CMakeFiles/10_drawing.dir
 /home/aa/jina_2026/build/opencv_ex/part2/CMakeFiles/11_drawing_example.dir
 /home/aa/jina_2026/build/opencv_ex/part2/CMakeFiles/12_drawing_example.dir
+/home/aa/jina_2026/build/opencv_ex/part2/CMakeFiles/13_font.dir
+/home/aa/jina_2026/build/opencv_ex/part2/CMakeFiles/14_freetype.dir
 /home/aa/jina_2026/build/opencv_ex/part2/CMakeFiles/edit_cache.dir
 /home/aa/jina_2026/build/opencv_ex/part2/CMakeFiles/rebuild_cache.dir
