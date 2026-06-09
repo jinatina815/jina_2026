@@ -125,6 +125,10 @@ opencv_ex/part2/all: opencv_ex/part2/CMakeFiles/15_keyboard.dir/all
 opencv_ex/part2/all: opencv_ex/part2/CMakeFiles/16_tick.dir/all
 opencv_ex/part2/all: opencv_ex/part2/CMakeFiles/17_mouse.dir/all
 opencv_ex/part2/all: opencv_ex/part2/CMakeFiles/18_mouse_example.dir/all
+opencv_ex/part2/all: opencv_ex/part2/CMakeFiles/19_trackbar.dir/all
+opencv_ex/part2/all: opencv_ex/part2/CMakeFiles/20_filestorage.dir/all
+opencv_ex/part2/all: opencv_ex/part2/CMakeFiles/21_filestorage2.dir/all
+opencv_ex/part2/all: opencv_ex/part2/CMakeFiles/22_mask.dir/all
 .PHONY : opencv_ex/part2/all
 
 # Recursive "preinstall" directory target.
@@ -142,6 +146,10 @@ opencv_ex/part2/clean: opencv_ex/part2/CMakeFiles/15_keyboard.dir/clean
 opencv_ex/part2/clean: opencv_ex/part2/CMakeFiles/16_tick.dir/clean
 opencv_ex/part2/clean: opencv_ex/part2/CMakeFiles/17_mouse.dir/clean
 opencv_ex/part2/clean: opencv_ex/part2/CMakeFiles/18_mouse_example.dir/clean
+opencv_ex/part2/clean: opencv_ex/part2/CMakeFiles/19_trackbar.dir/clean
+opencv_ex/part2/clean: opencv_ex/part2/CMakeFiles/20_filestorage.dir/clean
+opencv_ex/part2/clean: opencv_ex/part2/CMakeFiles/21_filestorage2.dir/clean
+opencv_ex/part2/clean: opencv_ex/part2/CMakeFiles/22_mask.dir/clean
 .PHONY : opencv_ex/part2/clean
 
 #=============================================================================
@@ -196,7 +204,7 @@ part6/scoreProcess/clean: part6/scoreProcess/CMakeFiles/scoreProcess.dir/clean
 part5/date/CMakeFiles/date.dir/all:
 	$(MAKE) $(MAKESILENT) -f part5/date/CMakeFiles/date.dir/build.make part5/date/CMakeFiles/date.dir/depend
 	$(MAKE) $(MAKESILENT) -f part5/date/CMakeFiles/date.dir/build.make part5/date/CMakeFiles/date.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/aa/jina_2026/build/CMakeFiles --progress-num=33,34,35 "Built target date"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/aa/jina_2026/build/CMakeFiles --progress-num=41,42,43 "Built target date"
 .PHONY : part5/date/CMakeFiles/date.dir/all
 
 # Build rule for subdir invocation for target.
@@ -222,7 +230,7 @@ part5/date/CMakeFiles/date.dir/clean:
 part5/twoDouble/CMakeFiles/twoDouble.dir/all:
 	$(MAKE) $(MAKESILENT) -f part5/twoDouble/CMakeFiles/twoDouble.dir/build.make part5/twoDouble/CMakeFiles/twoDouble.dir/depend
 	$(MAKE) $(MAKESILENT) -f part5/twoDouble/CMakeFiles/twoDouble.dir/build.make part5/twoDouble/CMakeFiles/twoDouble.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/aa/jina_2026/build/CMakeFiles --progress-num=39,40,41 "Built target twoDouble"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/aa/jina_2026/build/CMakeFiles --progress-num=47,48,49 "Built target twoDouble"
 .PHONY : part5/twoDouble/CMakeFiles/twoDouble.dir/all
 
 # Build rule for subdir invocation for target.
@@ -248,7 +256,7 @@ part5/twoDouble/CMakeFiles/twoDouble.dir/clean:
 part6/scoreProcess/CMakeFiles/scoreProcess.dir/all:
 	$(MAKE) $(MAKESILENT) -f part6/scoreProcess/CMakeFiles/scoreProcess.dir/build.make part6/scoreProcess/CMakeFiles/scoreProcess.dir/depend
 	$(MAKE) $(MAKESILENT) -f part6/scoreProcess/CMakeFiles/scoreProcess.dir/build.make part6/scoreProcess/CMakeFiles/scoreProcess.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/aa/jina_2026/build/CMakeFiles --progress-num=36,37,38 "Built target scoreProcess"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/aa/jina_2026/build/CMakeFiles --progress-num=44,45,46 "Built target scoreProcess"
 .PHONY : part6/scoreProcess/CMakeFiles/scoreProcess.dir/all
 
 # Build rule for subdir invocation for target.
@@ -682,6 +690,110 @@ opencv_ex/part2/CMakeFiles/18_mouse_example.dir/rule: cmake_check_build_system
 opencv_ex/part2/CMakeFiles/18_mouse_example.dir/clean:
 	$(MAKE) $(MAKESILENT) -f opencv_ex/part2/CMakeFiles/18_mouse_example.dir/build.make opencv_ex/part2/CMakeFiles/18_mouse_example.dir/clean
 .PHONY : opencv_ex/part2/CMakeFiles/18_mouse_example.dir/clean
+
+#=============================================================================
+# Target rules for target opencv_ex/part2/CMakeFiles/19_trackbar.dir
+
+# All Build rule for target.
+opencv_ex/part2/CMakeFiles/19_trackbar.dir/all:
+	$(MAKE) $(MAKESILENT) -f opencv_ex/part2/CMakeFiles/19_trackbar.dir/build.make opencv_ex/part2/CMakeFiles/19_trackbar.dir/depend
+	$(MAKE) $(MAKESILENT) -f opencv_ex/part2/CMakeFiles/19_trackbar.dir/build.make opencv_ex/part2/CMakeFiles/19_trackbar.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/aa/jina_2026/build/CMakeFiles --progress-num=33,34 "Built target 19_trackbar"
+.PHONY : opencv_ex/part2/CMakeFiles/19_trackbar.dir/all
+
+# Build rule for subdir invocation for target.
+opencv_ex/part2/CMakeFiles/19_trackbar.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/aa/jina_2026/build/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 opencv_ex/part2/CMakeFiles/19_trackbar.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/aa/jina_2026/build/CMakeFiles 0
+.PHONY : opencv_ex/part2/CMakeFiles/19_trackbar.dir/rule
+
+# Convenience name for target.
+19_trackbar: opencv_ex/part2/CMakeFiles/19_trackbar.dir/rule
+.PHONY : 19_trackbar
+
+# clean rule for target.
+opencv_ex/part2/CMakeFiles/19_trackbar.dir/clean:
+	$(MAKE) $(MAKESILENT) -f opencv_ex/part2/CMakeFiles/19_trackbar.dir/build.make opencv_ex/part2/CMakeFiles/19_trackbar.dir/clean
+.PHONY : opencv_ex/part2/CMakeFiles/19_trackbar.dir/clean
+
+#=============================================================================
+# Target rules for target opencv_ex/part2/CMakeFiles/20_filestorage.dir
+
+# All Build rule for target.
+opencv_ex/part2/CMakeFiles/20_filestorage.dir/all:
+	$(MAKE) $(MAKESILENT) -f opencv_ex/part2/CMakeFiles/20_filestorage.dir/build.make opencv_ex/part2/CMakeFiles/20_filestorage.dir/depend
+	$(MAKE) $(MAKESILENT) -f opencv_ex/part2/CMakeFiles/20_filestorage.dir/build.make opencv_ex/part2/CMakeFiles/20_filestorage.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/aa/jina_2026/build/CMakeFiles --progress-num=35,36 "Built target 20_filestorage"
+.PHONY : opencv_ex/part2/CMakeFiles/20_filestorage.dir/all
+
+# Build rule for subdir invocation for target.
+opencv_ex/part2/CMakeFiles/20_filestorage.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/aa/jina_2026/build/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 opencv_ex/part2/CMakeFiles/20_filestorage.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/aa/jina_2026/build/CMakeFiles 0
+.PHONY : opencv_ex/part2/CMakeFiles/20_filestorage.dir/rule
+
+# Convenience name for target.
+20_filestorage: opencv_ex/part2/CMakeFiles/20_filestorage.dir/rule
+.PHONY : 20_filestorage
+
+# clean rule for target.
+opencv_ex/part2/CMakeFiles/20_filestorage.dir/clean:
+	$(MAKE) $(MAKESILENT) -f opencv_ex/part2/CMakeFiles/20_filestorage.dir/build.make opencv_ex/part2/CMakeFiles/20_filestorage.dir/clean
+.PHONY : opencv_ex/part2/CMakeFiles/20_filestorage.dir/clean
+
+#=============================================================================
+# Target rules for target opencv_ex/part2/CMakeFiles/21_filestorage2.dir
+
+# All Build rule for target.
+opencv_ex/part2/CMakeFiles/21_filestorage2.dir/all:
+	$(MAKE) $(MAKESILENT) -f opencv_ex/part2/CMakeFiles/21_filestorage2.dir/build.make opencv_ex/part2/CMakeFiles/21_filestorage2.dir/depend
+	$(MAKE) $(MAKESILENT) -f opencv_ex/part2/CMakeFiles/21_filestorage2.dir/build.make opencv_ex/part2/CMakeFiles/21_filestorage2.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/aa/jina_2026/build/CMakeFiles --progress-num=37,38 "Built target 21_filestorage2"
+.PHONY : opencv_ex/part2/CMakeFiles/21_filestorage2.dir/all
+
+# Build rule for subdir invocation for target.
+opencv_ex/part2/CMakeFiles/21_filestorage2.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/aa/jina_2026/build/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 opencv_ex/part2/CMakeFiles/21_filestorage2.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/aa/jina_2026/build/CMakeFiles 0
+.PHONY : opencv_ex/part2/CMakeFiles/21_filestorage2.dir/rule
+
+# Convenience name for target.
+21_filestorage2: opencv_ex/part2/CMakeFiles/21_filestorage2.dir/rule
+.PHONY : 21_filestorage2
+
+# clean rule for target.
+opencv_ex/part2/CMakeFiles/21_filestorage2.dir/clean:
+	$(MAKE) $(MAKESILENT) -f opencv_ex/part2/CMakeFiles/21_filestorage2.dir/build.make opencv_ex/part2/CMakeFiles/21_filestorage2.dir/clean
+.PHONY : opencv_ex/part2/CMakeFiles/21_filestorage2.dir/clean
+
+#=============================================================================
+# Target rules for target opencv_ex/part2/CMakeFiles/22_mask.dir
+
+# All Build rule for target.
+opencv_ex/part2/CMakeFiles/22_mask.dir/all:
+	$(MAKE) $(MAKESILENT) -f opencv_ex/part2/CMakeFiles/22_mask.dir/build.make opencv_ex/part2/CMakeFiles/22_mask.dir/depend
+	$(MAKE) $(MAKESILENT) -f opencv_ex/part2/CMakeFiles/22_mask.dir/build.make opencv_ex/part2/CMakeFiles/22_mask.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/aa/jina_2026/build/CMakeFiles --progress-num=39,40 "Built target 22_mask"
+.PHONY : opencv_ex/part2/CMakeFiles/22_mask.dir/all
+
+# Build rule for subdir invocation for target.
+opencv_ex/part2/CMakeFiles/22_mask.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/aa/jina_2026/build/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 opencv_ex/part2/CMakeFiles/22_mask.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/aa/jina_2026/build/CMakeFiles 0
+.PHONY : opencv_ex/part2/CMakeFiles/22_mask.dir/rule
+
+# Convenience name for target.
+22_mask: opencv_ex/part2/CMakeFiles/22_mask.dir/rule
+.PHONY : 22_mask
+
+# clean rule for target.
+opencv_ex/part2/CMakeFiles/22_mask.dir/clean:
+	$(MAKE) $(MAKESILENT) -f opencv_ex/part2/CMakeFiles/22_mask.dir/build.make opencv_ex/part2/CMakeFiles/22_mask.dir/clean
+.PHONY : opencv_ex/part2/CMakeFiles/22_mask.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

@@ -363,6 +363,58 @@ scoreProcess/fast:
 	$(MAKE) $(MAKESILENT) -f opencv_ex/part2/CMakeFiles/18_mouse_example.dir/build.make opencv_ex/part2/CMakeFiles/18_mouse_example.dir/build
 .PHONY : 18_mouse_example/fast
 
+#=============================================================================
+# Target rules for targets named 19_trackbar
+
+# Build rule for target.
+19_trackbar: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 19_trackbar
+.PHONY : 19_trackbar
+
+# fast build rule for target.
+19_trackbar/fast:
+	$(MAKE) $(MAKESILENT) -f opencv_ex/part2/CMakeFiles/19_trackbar.dir/build.make opencv_ex/part2/CMakeFiles/19_trackbar.dir/build
+.PHONY : 19_trackbar/fast
+
+#=============================================================================
+# Target rules for targets named 20_filestorage
+
+# Build rule for target.
+20_filestorage: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 20_filestorage
+.PHONY : 20_filestorage
+
+# fast build rule for target.
+20_filestorage/fast:
+	$(MAKE) $(MAKESILENT) -f opencv_ex/part2/CMakeFiles/20_filestorage.dir/build.make opencv_ex/part2/CMakeFiles/20_filestorage.dir/build
+.PHONY : 20_filestorage/fast
+
+#=============================================================================
+# Target rules for targets named 21_filestorage2
+
+# Build rule for target.
+21_filestorage2: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 21_filestorage2
+.PHONY : 21_filestorage2
+
+# fast build rule for target.
+21_filestorage2/fast:
+	$(MAKE) $(MAKESILENT) -f opencv_ex/part2/CMakeFiles/21_filestorage2.dir/build.make opencv_ex/part2/CMakeFiles/21_filestorage2.dir/build
+.PHONY : 21_filestorage2/fast
+
+#=============================================================================
+# Target rules for targets named 22_mask
+
+# Build rule for target.
+22_mask: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 22_mask
+.PHONY : 22_mask
+
+# fast build rule for target.
+22_mask/fast:
+	$(MAKE) $(MAKESILENT) -f opencv_ex/part2/CMakeFiles/22_mask.dir/build.make opencv_ex/part2/CMakeFiles/22_mask.dir/build
+.PHONY : 22_mask/fast
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -387,6 +439,10 @@ help:
 	@echo "... 16_tick"
 	@echo "... 17_mouse"
 	@echo "... 18_mouse_example"
+	@echo "... 19_trackbar"
+	@echo "... 20_filestorage"
+	@echo "... 21_filestorage2"
+	@echo "... 22_mask"
 	@echo "... date"
 	@echo "... scoreProcess"
 	@echo "... twoDouble"

@@ -27,5 +27,9 @@
 /home/aa/jina_2026/build/opencv_ex/part2/CMakeFiles/16_tick.dir
 /home/aa/jina_2026/build/opencv_ex/part2/CMakeFiles/17_mouse.dir
 /home/aa/jina_2026/build/opencv_ex/part2/CMakeFiles/18_mouse_example.dir
+/home/aa/jina_2026/build/opencv_ex/part2/CMakeFiles/19_trackbar.dir
+/home/aa/jina_2026/build/opencv_ex/part2/CMakeFiles/20_filestorage.dir
+/home/aa/jina_2026/build/opencv_ex/part2/CMakeFiles/21_filestorage2.dir
+/home/aa/jina_2026/build/opencv_ex/part2/CMakeFiles/22_mask.dir
 /home/aa/jina_2026/build/opencv_ex/part2/CMakeFiles/edit_cache.dir
 /home/aa/jina_2026/build/opencv_ex/part2/CMakeFiles/rebuild_cache.dir
