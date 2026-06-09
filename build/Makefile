@@ -259,6 +259,32 @@ scoreProcess/fast:
 	$(MAKE) $(MAKESILENT) -f opencv_ex/part2/CMakeFiles/10_drawing.dir/build.make opencv_ex/part2/CMakeFiles/10_drawing.dir/build
 .PHONY : 10_drawing/fast
 
+#=============================================================================
+# Target rules for targets named 11_drawing_example
+
+# Build rule for target.
+11_drawing_example: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 11_drawing_example
+.PHONY : 11_drawing_example
+
+# fast build rule for target.
+11_drawing_example/fast:
+	$(MAKE) $(MAKESILENT) -f opencv_ex/part2/CMakeFiles/11_drawing_example.dir/build.make opencv_ex/part2/CMakeFiles/11_drawing_example.dir/build
+.PHONY : 11_drawing_example/fast
+
+#=============================================================================
+# Target rules for targets named 12_drawing_example
+
+# Build rule for target.
+12_drawing_example: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 12_drawing_example
+.PHONY : 12_drawing_example
+
+# fast build rule for target.
+12_drawing_example/fast:
+	$(MAKE) $(MAKESILENT) -f opencv_ex/part2/CMakeFiles/12_drawing_example.dir/build.make opencv_ex/part2/CMakeFiles/12_drawing_example.dir/build
+.PHONY : 12_drawing_example/fast
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -275,6 +301,8 @@ help:
 	@echo "... 06_video"
 	@echo "... 09_videoSave"
 	@echo "... 10_drawing"
+	@echo "... 11_drawing_example"
+	@echo "... 12_drawing_example"
 	@echo "... date"
 	@echo "... scoreProcess"
 	@echo "... twoDouble"

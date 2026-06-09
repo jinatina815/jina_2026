@@ -71,4 +71,6 @@ set(CMAKE_DEPEND_INFO_FILES
   "opencv_ex/CMakeFiles/06_video.dir/DependInfo.cmake"
   "opencv_ex/part2/CMakeFiles/09_videoSave.dir/DependInfo.cmake"
   "opencv_ex/part2/CMakeFiles/10_drawing.dir/DependInfo.cmake"
+  "opencv_ex/part2/CMakeFiles/11_drawing_example.dir/DependInfo.cmake"
+  "opencv_ex/part2/CMakeFiles/12_drawing_example.dir/DependInfo.cmake"
   )
