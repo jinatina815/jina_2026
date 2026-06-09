@@ -311,6 +311,19 @@ scoreProcess/fast:
 	$(MAKE) $(MAKESILENT) -f opencv_ex/part2/CMakeFiles/14_freetype.dir/build.make opencv_ex/part2/CMakeFiles/14_freetype.dir/build
 .PHONY : 14_freetype/fast
 
+#=============================================================================
+# Target rules for targets named 15_keyboard
+
+# Build rule for target.
+15_keyboard: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 15_keyboard
+.PHONY : 15_keyboard
+
+# fast build rule for target.
+15_keyboard/fast:
+	$(MAKE) $(MAKESILENT) -f opencv_ex/part2/CMakeFiles/15_keyboard.dir/build.make opencv_ex/part2/CMakeFiles/15_keyboard.dir/build
+.PHONY : 15_keyboard/fast
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -331,6 +344,7 @@ help:
 	@echo "... 12_drawing_example"
 	@echo "... 13_font"
 	@echo "... 14_freetype"
+	@echo "... 15_keyboard"
 	@echo "... date"
 	@echo "... scoreProcess"
 	@echo "... twoDouble"
