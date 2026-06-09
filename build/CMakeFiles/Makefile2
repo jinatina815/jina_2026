@@ -123,6 +123,8 @@ opencv_ex/part2/all: opencv_ex/part2/CMakeFiles/13_font.dir/all
 opencv_ex/part2/all: opencv_ex/part2/CMakeFiles/14_freetype.dir/all
 opencv_ex/part2/all: opencv_ex/part2/CMakeFiles/15_keyboard.dir/all
 opencv_ex/part2/all: opencv_ex/part2/CMakeFiles/16_tick.dir/all
+opencv_ex/part2/all: opencv_ex/part2/CMakeFiles/17_mouse.dir/all
+opencv_ex/part2/all: opencv_ex/part2/CMakeFiles/18_mouse_example.dir/all
 .PHONY : opencv_ex/part2/all
 
 # Recursive "preinstall" directory target.
@@ -138,6 +140,8 @@ opencv_ex/part2/clean: opencv_ex/part2/CMakeFiles/13_font.dir/clean
 opencv_ex/part2/clean: opencv_ex/part2/CMakeFiles/14_freetype.dir/clean
 opencv_ex/part2/clean: opencv_ex/part2/CMakeFiles/15_keyboard.dir/clean
 opencv_ex/part2/clean: opencv_ex/part2/CMakeFiles/16_tick.dir/clean
+opencv_ex/part2/clean: opencv_ex/part2/CMakeFiles/17_mouse.dir/clean
+opencv_ex/part2/clean: opencv_ex/part2/CMakeFiles/18_mouse_example.dir/clean
 .PHONY : opencv_ex/part2/clean
 
 #=============================================================================
@@ -192,7 +196,7 @@ part6/scoreProcess/clean: part6/scoreProcess/CMakeFiles/scoreProcess.dir/clean
 part5/date/CMakeFiles/date.dir/all:
 	$(MAKE) $(MAKESILENT) -f part5/date/CMakeFiles/date.dir/build.make part5/date/CMakeFiles/date.dir/depend
 	$(MAKE) $(MAKESILENT) -f part5/date/CMakeFiles/date.dir/build.make part5/date/CMakeFiles/date.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/aa/jina_2026/build/CMakeFiles --progress-num=29,30,31 "Built target date"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/aa/jina_2026/build/CMakeFiles --progress-num=33,34,35 "Built target date"
 .PHONY : part5/date/CMakeFiles/date.dir/all
 
 # Build rule for subdir invocation for target.
@@ -218,7 +222,7 @@ part5/date/CMakeFiles/date.dir/clean:
 part5/twoDouble/CMakeFiles/twoDouble.dir/all:
 	$(MAKE) $(MAKESILENT) -f part5/twoDouble/CMakeFiles/twoDouble.dir/build.make part5/twoDouble/CMakeFiles/twoDouble.dir/depend
 	$(MAKE) $(MAKESILENT) -f part5/twoDouble/CMakeFiles/twoDouble.dir/build.make part5/twoDouble/CMakeFiles/twoDouble.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/aa/jina_2026/build/CMakeFiles --progress-num=35,36,37 "Built target twoDouble"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/aa/jina_2026/build/CMakeFiles --progress-num=39,40,41 "Built target twoDouble"
 .PHONY : part5/twoDouble/CMakeFiles/twoDouble.dir/all
 
 # Build rule for subdir invocation for target.
@@ -244,7 +248,7 @@ part5/twoDouble/CMakeFiles/twoDouble.dir/clean:
 part6/scoreProcess/CMakeFiles/scoreProcess.dir/all:
 	$(MAKE) $(MAKESILENT) -f part6/scoreProcess/CMakeFiles/scoreProcess.dir/build.make part6/scoreProcess/CMakeFiles/scoreProcess.dir/depend
 	$(MAKE) $(MAKESILENT) -f part6/scoreProcess/CMakeFiles/scoreProcess.dir/build.make part6/scoreProcess/CMakeFiles/scoreProcess.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/aa/jina_2026/build/CMakeFiles --progress-num=32,33,34 "Built target scoreProcess"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/aa/jina_2026/build/CMakeFiles --progress-num=36,37,38 "Built target scoreProcess"
 .PHONY : part6/scoreProcess/CMakeFiles/scoreProcess.dir/all
 
 # Build rule for subdir invocation for target.
@@ -626,6 +630,58 @@ opencv_ex/part2/CMakeFiles/16_tick.dir/rule: cmake_check_build_system
 opencv_ex/part2/CMakeFiles/16_tick.dir/clean:
 	$(MAKE) $(MAKESILENT) -f opencv_ex/part2/CMakeFiles/16_tick.dir/build.make opencv_ex/part2/CMakeFiles/16_tick.dir/clean
 .PHONY : opencv_ex/part2/CMakeFiles/16_tick.dir/clean
+
+#=============================================================================
+# Target rules for target opencv_ex/part2/CMakeFiles/17_mouse.dir
+
+# All Build rule for target.
+opencv_ex/part2/CMakeFiles/17_mouse.dir/all:
+	$(MAKE) $(MAKESILENT) -f opencv_ex/part2/CMakeFiles/17_mouse.dir/build.make opencv_ex/part2/CMakeFiles/17_mouse.dir/depend
+	$(MAKE) $(MAKESILENT) -f opencv_ex/part2/CMakeFiles/17_mouse.dir/build.make opencv_ex/part2/CMakeFiles/17_mouse.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/aa/jina_2026/build/CMakeFiles --progress-num=29,30 "Built target 17_mouse"
+.PHONY : opencv_ex/part2/CMakeFiles/17_mouse.dir/all
+
+# Build rule for subdir invocation for target.
+opencv_ex/part2/CMakeFiles/17_mouse.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/aa/jina_2026/build/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 opencv_ex/part2/CMakeFiles/17_mouse.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/aa/jina_2026/build/CMakeFiles 0
+.PHONY : opencv_ex/part2/CMakeFiles/17_mouse.dir/rule
+
+# Convenience name for target.
+17_mouse: opencv_ex/part2/CMakeFiles/17_mouse.dir/rule
+.PHONY : 17_mouse
+
+# clean rule for target.
+opencv_ex/part2/CMakeFiles/17_mouse.dir/clean:
+	$(MAKE) $(MAKESILENT) -f opencv_ex/part2/CMakeFiles/17_mouse.dir/build.make opencv_ex/part2/CMakeFiles/17_mouse.dir/clean
+.PHONY : opencv_ex/part2/CMakeFiles/17_mouse.dir/clean
+
+#=============================================================================
+# Target rules for target opencv_ex/part2/CMakeFiles/18_mouse_example.dir
+
+# All Build rule for target.
+opencv_ex/part2/CMakeFiles/18_mouse_example.dir/all:
+	$(MAKE) $(MAKESILENT) -f opencv_ex/part2/CMakeFiles/18_mouse_example.dir/build.make opencv_ex/part2/CMakeFiles/18_mouse_example.dir/depend
+	$(MAKE) $(MAKESILENT) -f opencv_ex/part2/CMakeFiles/18_mouse_example.dir/build.make opencv_ex/part2/CMakeFiles/18_mouse_example.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/aa/jina_2026/build/CMakeFiles --progress-num=31,32 "Built target 18_mouse_example"
+.PHONY : opencv_ex/part2/CMakeFiles/18_mouse_example.dir/all
+
+# Build rule for subdir invocation for target.
+opencv_ex/part2/CMakeFiles/18_mouse_example.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/aa/jina_2026/build/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 opencv_ex/part2/CMakeFiles/18_mouse_example.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/aa/jina_2026/build/CMakeFiles 0
+.PHONY : opencv_ex/part2/CMakeFiles/18_mouse_example.dir/rule
+
+# Convenience name for target.
+18_mouse_example: opencv_ex/part2/CMakeFiles/18_mouse_example.dir/rule
+.PHONY : 18_mouse_example
+
+# clean rule for target.
+opencv_ex/part2/CMakeFiles/18_mouse_example.dir/clean:
+	$(MAKE) $(MAKESILENT) -f opencv_ex/part2/CMakeFiles/18_mouse_example.dir/build.make opencv_ex/part2/CMakeFiles/18_mouse_example.dir/clean
+.PHONY : opencv_ex/part2/CMakeFiles/18_mouse_example.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

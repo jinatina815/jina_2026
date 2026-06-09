@@ -337,6 +337,32 @@ scoreProcess/fast:
 	$(MAKE) $(MAKESILENT) -f opencv_ex/part2/CMakeFiles/16_tick.dir/build.make opencv_ex/part2/CMakeFiles/16_tick.dir/build
 .PHONY : 16_tick/fast
 
+#=============================================================================
+# Target rules for targets named 17_mouse
+
+# Build rule for target.
+17_mouse: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 17_mouse
+.PHONY : 17_mouse
+
+# fast build rule for target.
+17_mouse/fast:
+	$(MAKE) $(MAKESILENT) -f opencv_ex/part2/CMakeFiles/17_mouse.dir/build.make opencv_ex/part2/CMakeFiles/17_mouse.dir/build
+.PHONY : 17_mouse/fast
+
+#=============================================================================
+# Target rules for targets named 18_mouse_example
+
+# Build rule for target.
+18_mouse_example: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 18_mouse_example
+.PHONY : 18_mouse_example
+
+# fast build rule for target.
+18_mouse_example/fast:
+	$(MAKE) $(MAKESILENT) -f opencv_ex/part2/CMakeFiles/18_mouse_example.dir/build.make opencv_ex/part2/CMakeFiles/18_mouse_example.dir/build
+.PHONY : 18_mouse_example/fast
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -359,6 +385,8 @@ help:
 	@echo "... 14_freetype"
 	@echo "... 15_keyboard"
 	@echo "... 16_tick"
+	@echo "... 17_mouse"
+	@echo "... 18_mouse_example"
 	@echo "... date"
 	@echo "... scoreProcess"
 	@echo "... twoDouble"

@@ -5,7 +5,7 @@
 using namespace std;
 using namespace cv;
 
-String folderPath = "/home/aa/kuBig2026/opencv_ex/data/";
+String folderPath = "/home/aa/jina_2026/opencv_ex/data/";
 
 void on_mouse(int event, int x, int y , int flags, void *data);
 
