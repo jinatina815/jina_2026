@@ -480,6 +480,19 @@ scoreProcess/fast:
 	$(MAKE) $(MAKESILENT) -f opencv_ex/part3/CMakeFiles/27_embossing.dir/build.make opencv_ex/part3/CMakeFiles/27_embossing.dir/build
 .PHONY : 27_embossing/fast
 
+#=============================================================================
+# Target rules for targets named 28_blurr
+
+# Build rule for target.
+28_blurr: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 28_blurr
+.PHONY : 28_blurr
+
+# fast build rule for target.
+28_blurr/fast:
+	$(MAKE) $(MAKESILENT) -f opencv_ex/part3/CMakeFiles/28_blurr.dir/build.make opencv_ex/part3/CMakeFiles/28_blurr.dir/build
+.PHONY : 28_blurr/fast
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -513,6 +526,7 @@ help:
 	@echo "... 25_histogriam"
 	@echo "... 26_arithmetic"
 	@echo "... 27_embossing"
+	@echo "... 28_blurr"
 	@echo "... date"
 	@echo "... scoreProcess"
 	@echo "... twoDouble"
