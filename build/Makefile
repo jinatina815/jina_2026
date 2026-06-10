@@ -441,6 +441,45 @@ scoreProcess/fast:
 	$(MAKE) $(MAKESILENT) -f opencv_ex/part3/CMakeFiles/24_contrast.dir/build.make opencv_ex/part3/CMakeFiles/24_contrast.dir/build
 .PHONY : 24_contrast/fast
 
+#=============================================================================
+# Target rules for targets named 25_histogriam
+
+# Build rule for target.
+25_histogriam: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 25_histogriam
+.PHONY : 25_histogriam
+
+# fast build rule for target.
+25_histogriam/fast:
+	$(MAKE) $(MAKESILENT) -f opencv_ex/part3/CMakeFiles/25_histogriam.dir/build.make opencv_ex/part3/CMakeFiles/25_histogriam.dir/build
+.PHONY : 25_histogriam/fast
+
+#=============================================================================
+# Target rules for targets named 26_arithmetic
+
+# Build rule for target.
+26_arithmetic: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 26_arithmetic
+.PHONY : 26_arithmetic
+
+# fast build rule for target.
+26_arithmetic/fast:
+	$(MAKE) $(MAKESILENT) -f opencv_ex/part3/CMakeFiles/26_arithmetic.dir/build.make opencv_ex/part3/CMakeFiles/26_arithmetic.dir/build
+.PHONY : 26_arithmetic/fast
+
+#=============================================================================
+# Target rules for targets named 27_embossing
+
+# Build rule for target.
+27_embossing: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 27_embossing
+.PHONY : 27_embossing
+
+# fast build rule for target.
+27_embossing/fast:
+	$(MAKE) $(MAKESILENT) -f opencv_ex/part3/CMakeFiles/27_embossing.dir/build.make opencv_ex/part3/CMakeFiles/27_embossing.dir/build
+.PHONY : 27_embossing/fast
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -471,6 +510,9 @@ help:
 	@echo "... 22_mask"
 	@echo "... 23_brightness"
 	@echo "... 24_contrast"
+	@echo "... 25_histogriam"
+	@echo "... 26_arithmetic"
+	@echo "... 27_embossing"
 	@echo "... date"
 	@echo "... scoreProcess"
 	@echo "... twoDouble"

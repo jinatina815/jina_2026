@@ -87,4 +87,7 @@ set(CMAKE_DEPEND_INFO_FILES
   "opencv_ex/part2/CMakeFiles/22_mask.dir/DependInfo.cmake"
   "opencv_ex/part3/CMakeFiles/23_brightness.dir/DependInfo.cmake"
   "opencv_ex/part3/CMakeFiles/24_contrast.dir/DependInfo.cmake"
+  "opencv_ex/part3/CMakeFiles/25_histogriam.dir/DependInfo.cmake"
+  "opencv_ex/part3/CMakeFiles/26_arithmetic.dir/DependInfo.cmake"
+  "opencv_ex/part3/CMakeFiles/27_embossing.dir/DependInfo.cmake"
   )
