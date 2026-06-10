@@ -493,6 +493,19 @@ scoreProcess/fast:
 	$(MAKE) $(MAKESILENT) -f opencv_ex/part3/CMakeFiles/28_blurr.dir/build.make opencv_ex/part3/CMakeFiles/28_blurr.dir/build
 .PHONY : 28_blurr/fast
 
+#=============================================================================
+# Target rules for targets named 29_sharpening
+
+# Build rule for target.
+29_sharpening: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 29_sharpening
+.PHONY : 29_sharpening
+
+# fast build rule for target.
+29_sharpening/fast:
+	$(MAKE) $(MAKESILENT) -f opencv_ex/part3/CMakeFiles/29_sharpening.dir/build.make opencv_ex/part3/CMakeFiles/29_sharpening.dir/build
+.PHONY : 29_sharpening/fast
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -527,6 +540,7 @@ help:
 	@echo "... 26_arithmetic"
 	@echo "... 27_embossing"
 	@echo "... 28_blurr"
+	@echo "... 29_sharpening"
 	@echo "... date"
 	@echo "... scoreProcess"
 	@echo "... twoDouble"

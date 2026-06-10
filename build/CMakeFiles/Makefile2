@@ -165,6 +165,7 @@ opencv_ex/part3/all: opencv_ex/part3/CMakeFiles/25_histogriam.dir/all
 opencv_ex/part3/all: opencv_ex/part3/CMakeFiles/26_arithmetic.dir/all
 opencv_ex/part3/all: opencv_ex/part3/CMakeFiles/27_embossing.dir/all
 opencv_ex/part3/all: opencv_ex/part3/CMakeFiles/28_blurr.dir/all
+opencv_ex/part3/all: opencv_ex/part3/CMakeFiles/29_sharpening.dir/all
 .PHONY : opencv_ex/part3/all
 
 # Recursive "preinstall" directory target.
@@ -178,6 +179,7 @@ opencv_ex/part3/clean: opencv_ex/part3/CMakeFiles/25_histogriam.dir/clean
 opencv_ex/part3/clean: opencv_ex/part3/CMakeFiles/26_arithmetic.dir/clean
 opencv_ex/part3/clean: opencv_ex/part3/CMakeFiles/27_embossing.dir/clean
 opencv_ex/part3/clean: opencv_ex/part3/CMakeFiles/28_blurr.dir/clean
+opencv_ex/part3/clean: opencv_ex/part3/CMakeFiles/29_sharpening.dir/clean
 .PHONY : opencv_ex/part3/clean
 
 #=============================================================================
@@ -232,7 +234,7 @@ part6/scoreProcess/clean: part6/scoreProcess/CMakeFiles/scoreProcess.dir/clean
 part5/date/CMakeFiles/date.dir/all:
 	$(MAKE) $(MAKESILENT) -f part5/date/CMakeFiles/date.dir/build.make part5/date/CMakeFiles/date.dir/depend
 	$(MAKE) $(MAKESILENT) -f part5/date/CMakeFiles/date.dir/build.make part5/date/CMakeFiles/date.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/aa/jina_2026/build/CMakeFiles --progress-num=53,54,55 "Built target date"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/aa/jina_2026/build/CMakeFiles --progress-num=55,56,57 "Built target date"
 .PHONY : part5/date/CMakeFiles/date.dir/all
 
 # Build rule for subdir invocation for target.
@@ -258,7 +260,7 @@ part5/date/CMakeFiles/date.dir/clean:
 part5/twoDouble/CMakeFiles/twoDouble.dir/all:
 	$(MAKE) $(MAKESILENT) -f part5/twoDouble/CMakeFiles/twoDouble.dir/build.make part5/twoDouble/CMakeFiles/twoDouble.dir/depend
 	$(MAKE) $(MAKESILENT) -f part5/twoDouble/CMakeFiles/twoDouble.dir/build.make part5/twoDouble/CMakeFiles/twoDouble.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/aa/jina_2026/build/CMakeFiles --progress-num=59,60,61 "Built target twoDouble"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/aa/jina_2026/build/CMakeFiles --progress-num=61,62,63 "Built target twoDouble"
 .PHONY : part5/twoDouble/CMakeFiles/twoDouble.dir/all
 
 # Build rule for subdir invocation for target.
@@ -284,7 +286,7 @@ part5/twoDouble/CMakeFiles/twoDouble.dir/clean:
 part6/scoreProcess/CMakeFiles/scoreProcess.dir/all:
 	$(MAKE) $(MAKESILENT) -f part6/scoreProcess/CMakeFiles/scoreProcess.dir/build.make part6/scoreProcess/CMakeFiles/scoreProcess.dir/depend
 	$(MAKE) $(MAKESILENT) -f part6/scoreProcess/CMakeFiles/scoreProcess.dir/build.make part6/scoreProcess/CMakeFiles/scoreProcess.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/aa/jina_2026/build/CMakeFiles --progress-num=56,57,58 "Built target scoreProcess"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/aa/jina_2026/build/CMakeFiles --progress-num=58,59,60 "Built target scoreProcess"
 .PHONY : part6/scoreProcess/CMakeFiles/scoreProcess.dir/all
 
 # Build rule for subdir invocation for target.
@@ -978,6 +980,32 @@ opencv_ex/part3/CMakeFiles/28_blurr.dir/rule: cmake_check_build_system
 opencv_ex/part3/CMakeFiles/28_blurr.dir/clean:
 	$(MAKE) $(MAKESILENT) -f opencv_ex/part3/CMakeFiles/28_blurr.dir/build.make opencv_ex/part3/CMakeFiles/28_blurr.dir/clean
 .PHONY : opencv_ex/part3/CMakeFiles/28_blurr.dir/clean
+
+#=============================================================================
+# Target rules for target opencv_ex/part3/CMakeFiles/29_sharpening.dir
+
+# All Build rule for target.
+opencv_ex/part3/CMakeFiles/29_sharpening.dir/all:
+	$(MAKE) $(MAKESILENT) -f opencv_ex/part3/CMakeFiles/29_sharpening.dir/build.make opencv_ex/part3/CMakeFiles/29_sharpening.dir/depend
+	$(MAKE) $(MAKESILENT) -f opencv_ex/part3/CMakeFiles/29_sharpening.dir/build.make opencv_ex/part3/CMakeFiles/29_sharpening.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/aa/jina_2026/build/CMakeFiles --progress-num=53,54 "Built target 29_sharpening"
+.PHONY : opencv_ex/part3/CMakeFiles/29_sharpening.dir/all
+
+# Build rule for subdir invocation for target.
+opencv_ex/part3/CMakeFiles/29_sharpening.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/aa/jina_2026/build/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 opencv_ex/part3/CMakeFiles/29_sharpening.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/aa/jina_2026/build/CMakeFiles 0
+.PHONY : opencv_ex/part3/CMakeFiles/29_sharpening.dir/rule
+
+# Convenience name for target.
+29_sharpening: opencv_ex/part3/CMakeFiles/29_sharpening.dir/rule
+.PHONY : 29_sharpening
+
+# clean rule for target.
+opencv_ex/part3/CMakeFiles/29_sharpening.dir/clean:
+	$(MAKE) $(MAKESILENT) -f opencv_ex/part3/CMakeFiles/29_sharpening.dir/build.make opencv_ex/part3/CMakeFiles/29_sharpening.dir/clean
+.PHONY : opencv_ex/part3/CMakeFiles/29_sharpening.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.
