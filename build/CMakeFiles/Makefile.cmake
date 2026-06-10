@@ -13,6 +13,7 @@ set(CMAKE_MAKEFILE_DEPENDS
   "CMakeFiles/3.22.1/CMakeSystem.cmake"
   "../opencv_ex/CMakeLists.txt"
   "../opencv_ex/part2/CMakeLists.txt"
+  "../opencv_ex/part3/CMakeLists.txt"
   "../part5/date/CMakeLists.txt"
   "../part5/twoDouble/CMakeLists.txt"
   "../part6/scoreProcess/CMakeLists.txt"
@@ -56,6 +57,7 @@ set(CMAKE_MAKEFILE_PRODUCTS
   "part6/scoreProcess/CMakeFiles/CMakeDirectoryInformation.cmake"
   "opencv_ex/CMakeFiles/CMakeDirectoryInformation.cmake"
   "opencv_ex/part2/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "opencv_ex/part3/CMakeFiles/CMakeDirectoryInformation.cmake"
   )
 
 # Dependency information for all targets:
@@ -83,4 +85,5 @@ set(CMAKE_DEPEND_INFO_FILES
   "opencv_ex/part2/CMakeFiles/20_filestorage.dir/DependInfo.cmake"
   "opencv_ex/part2/CMakeFiles/21_filestorage2.dir/DependInfo.cmake"
   "opencv_ex/part2/CMakeFiles/22_mask.dir/DependInfo.cmake"
+  "opencv_ex/part3/CMakeFiles/23_brightness.dir/DependInfo.cmake"
   )

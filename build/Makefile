@@ -415,6 +415,19 @@ scoreProcess/fast:
 	$(MAKE) $(MAKESILENT) -f opencv_ex/part2/CMakeFiles/22_mask.dir/build.make opencv_ex/part2/CMakeFiles/22_mask.dir/build
 .PHONY : 22_mask/fast
 
+#=============================================================================
+# Target rules for targets named 23_brightness
+
+# Build rule for target.
+23_brightness: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 23_brightness
+.PHONY : 23_brightness
+
+# fast build rule for target.
+23_brightness/fast:
+	$(MAKE) $(MAKESILENT) -f opencv_ex/part3/CMakeFiles/23_brightness.dir/build.make opencv_ex/part3/CMakeFiles/23_brightness.dir/build
+.PHONY : 23_brightness/fast
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -443,6 +456,7 @@ help:
 	@echo "... 20_filestorage"
 	@echo "... 21_filestorage2"
 	@echo "... 22_mask"
+	@echo "... 23_brightness"
 	@echo "... date"
 	@echo "... scoreProcess"
 	@echo "... twoDouble"
