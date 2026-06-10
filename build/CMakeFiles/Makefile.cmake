@@ -14,6 +14,7 @@ set(CMAKE_MAKEFILE_DEPENDS
   "../opencv_ex/CMakeLists.txt"
   "../opencv_ex/part2/CMakeLists.txt"
   "../opencv_ex/part3/CMakeLists.txt"
+  "../opencv_ex/part4/CMakeLists.txt"
   "../part5/date/CMakeLists.txt"
   "../part5/twoDouble/CMakeLists.txt"
   "../part6/scoreProcess/CMakeLists.txt"
@@ -58,6 +59,7 @@ set(CMAKE_MAKEFILE_PRODUCTS
   "opencv_ex/CMakeFiles/CMakeDirectoryInformation.cmake"
   "opencv_ex/part2/CMakeFiles/CMakeDirectoryInformation.cmake"
   "opencv_ex/part3/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "opencv_ex/part4/CMakeFiles/CMakeDirectoryInformation.cmake"
   )
 
 # Dependency information for all targets:
@@ -92,4 +94,6 @@ set(CMAKE_DEPEND_INFO_FILES
   "opencv_ex/part3/CMakeFiles/27_embossing.dir/DependInfo.cmake"
   "opencv_ex/part3/CMakeFiles/28_blurr.dir/DependInfo.cmake"
   "opencv_ex/part3/CMakeFiles/29_sharpening.dir/DependInfo.cmake"
+  "opencv_ex/part3/CMakeFiles/30_bilateral.dir/DependInfo.cmake"
+  "opencv_ex/part4/CMakeFiles/31_affine.dir/DependInfo.cmake"
   )
