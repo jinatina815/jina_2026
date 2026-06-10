@@ -34,5 +34,6 @@
 /home/aa/jina_2026/build/opencv_ex/part2/CMakeFiles/edit_cache.dir
 /home/aa/jina_2026/build/opencv_ex/part2/CMakeFiles/rebuild_cache.dir
 /home/aa/jina_2026/build/opencv_ex/part3/CMakeFiles/23_brightness.dir
+/home/aa/jina_2026/build/opencv_ex/part3/CMakeFiles/24_contrast.dir
 /home/aa/jina_2026/build/opencv_ex/part3/CMakeFiles/edit_cache.dir
 /home/aa/jina_2026/build/opencv_ex/part3/CMakeFiles/rebuild_cache.dir
