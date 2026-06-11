@@ -649,6 +649,58 @@ scoreProcess/fast:
 	$(MAKE) $(MAKESILENT) -f opencv_ex/part4/CMakeFiles/39_color_split.dir/build.make opencv_ex/part4/CMakeFiles/39_color_split.dir/build
 .PHONY : 39_color_split/fast
 
+#=============================================================================
+# Target rules for targets named 40_inrange
+
+# Build rule for target.
+40_inrange: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 40_inrange
+.PHONY : 40_inrange
+
+# fast build rule for target.
+40_inrange/fast:
+	$(MAKE) $(MAKESILENT) -f opencv_ex/part4/CMakeFiles/40_inrange.dir/build.make opencv_ex/part4/CMakeFiles/40_inrange.dir/build
+.PHONY : 40_inrange/fast
+
+#=============================================================================
+# Target rules for targets named 41_inrange
+
+# Build rule for target.
+41_inrange: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 41_inrange
+.PHONY : 41_inrange
+
+# fast build rule for target.
+41_inrange/fast:
+	$(MAKE) $(MAKESILENT) -f opencv_ex/part4/CMakeFiles/41_inrange.dir/build.make opencv_ex/part4/CMakeFiles/41_inrange.dir/build
+.PHONY : 41_inrange/fast
+
+#=============================================================================
+# Target rules for targets named 42_threshold
+
+# Build rule for target.
+42_threshold: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 42_threshold
+.PHONY : 42_threshold
+
+# fast build rule for target.
+42_threshold/fast:
+	$(MAKE) $(MAKESILENT) -f opencv_ex/part4/CMakeFiles/42_threshold.dir/build.make opencv_ex/part4/CMakeFiles/42_threshold.dir/build
+.PHONY : 42_threshold/fast
+
+#=============================================================================
+# Target rules for targets named 43_morpholgy
+
+# Build rule for target.
+43_morpholgy: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 43_morpholgy
+.PHONY : 43_morpholgy
+
+# fast build rule for target.
+43_morpholgy/fast:
+	$(MAKE) $(MAKESILENT) -f opencv_ex/part4/CMakeFiles/43_morpholgy.dir/build.make opencv_ex/part4/CMakeFiles/43_morpholgy.dir/build
+.PHONY : 43_morpholgy/fast
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -695,6 +747,10 @@ help:
 	@echo "... 37_houring"
 	@echo "... 38_houglineP"
 	@echo "... 39_color_split"
+	@echo "... 40_inrange"
+	@echo "... 41_inrange"
+	@echo "... 42_threshold"
+	@echo "... 43_morpholgy"
 	@echo "... date"
 	@echo "... scoreProcess"
 	@echo "... twoDouble"

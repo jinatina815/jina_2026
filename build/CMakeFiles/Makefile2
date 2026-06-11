@@ -201,6 +201,10 @@ opencv_ex/part4/all: opencv_ex/part4/CMakeFiles/36_canny.dir/all
 opencv_ex/part4/all: opencv_ex/part4/CMakeFiles/37_houring.dir/all
 opencv_ex/part4/all: opencv_ex/part4/CMakeFiles/38_houglineP.dir/all
 opencv_ex/part4/all: opencv_ex/part4/CMakeFiles/39_color_split.dir/all
+opencv_ex/part4/all: opencv_ex/part4/CMakeFiles/40_inrange.dir/all
+opencv_ex/part4/all: opencv_ex/part4/CMakeFiles/41_inrange.dir/all
+opencv_ex/part4/all: opencv_ex/part4/CMakeFiles/42_threshold.dir/all
+opencv_ex/part4/all: opencv_ex/part4/CMakeFiles/43_morpholgy.dir/all
 .PHONY : opencv_ex/part4/all
 
 # Recursive "preinstall" directory target.
@@ -218,6 +222,10 @@ opencv_ex/part4/clean: opencv_ex/part4/CMakeFiles/36_canny.dir/clean
 opencv_ex/part4/clean: opencv_ex/part4/CMakeFiles/37_houring.dir/clean
 opencv_ex/part4/clean: opencv_ex/part4/CMakeFiles/38_houglineP.dir/clean
 opencv_ex/part4/clean: opencv_ex/part4/CMakeFiles/39_color_split.dir/clean
+opencv_ex/part4/clean: opencv_ex/part4/CMakeFiles/40_inrange.dir/clean
+opencv_ex/part4/clean: opencv_ex/part4/CMakeFiles/41_inrange.dir/clean
+opencv_ex/part4/clean: opencv_ex/part4/CMakeFiles/42_threshold.dir/clean
+opencv_ex/part4/clean: opencv_ex/part4/CMakeFiles/43_morpholgy.dir/clean
 .PHONY : opencv_ex/part4/clean
 
 #=============================================================================
@@ -272,7 +280,7 @@ part6/scoreProcess/clean: part6/scoreProcess/CMakeFiles/scoreProcess.dir/clean
 part5/date/CMakeFiles/date.dir/all:
 	$(MAKE) $(MAKESILENT) -f part5/date/CMakeFiles/date.dir/build.make part5/date/CMakeFiles/date.dir/depend
 	$(MAKE) $(MAKESILENT) -f part5/date/CMakeFiles/date.dir/build.make part5/date/CMakeFiles/date.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/aa/jina_2026/build/CMakeFiles --progress-num=77,78,79 "Built target date"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/aa/jina_2026/build/CMakeFiles --progress-num=85,86,87 "Built target date"
 .PHONY : part5/date/CMakeFiles/date.dir/all
 
 # Build rule for subdir invocation for target.
@@ -298,7 +306,7 @@ part5/date/CMakeFiles/date.dir/clean:
 part5/twoDouble/CMakeFiles/twoDouble.dir/all:
 	$(MAKE) $(MAKESILENT) -f part5/twoDouble/CMakeFiles/twoDouble.dir/build.make part5/twoDouble/CMakeFiles/twoDouble.dir/depend
 	$(MAKE) $(MAKESILENT) -f part5/twoDouble/CMakeFiles/twoDouble.dir/build.make part5/twoDouble/CMakeFiles/twoDouble.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/aa/jina_2026/build/CMakeFiles --progress-num=83,84,85 "Built target twoDouble"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/aa/jina_2026/build/CMakeFiles --progress-num=91,92,93 "Built target twoDouble"
 .PHONY : part5/twoDouble/CMakeFiles/twoDouble.dir/all
 
 # Build rule for subdir invocation for target.
@@ -324,7 +332,7 @@ part5/twoDouble/CMakeFiles/twoDouble.dir/clean:
 part6/scoreProcess/CMakeFiles/scoreProcess.dir/all:
 	$(MAKE) $(MAKESILENT) -f part6/scoreProcess/CMakeFiles/scoreProcess.dir/build.make part6/scoreProcess/CMakeFiles/scoreProcess.dir/depend
 	$(MAKE) $(MAKESILENT) -f part6/scoreProcess/CMakeFiles/scoreProcess.dir/build.make part6/scoreProcess/CMakeFiles/scoreProcess.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/aa/jina_2026/build/CMakeFiles --progress-num=80,81,82 "Built target scoreProcess"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/aa/jina_2026/build/CMakeFiles --progress-num=88,89,90 "Built target scoreProcess"
 .PHONY : part6/scoreProcess/CMakeFiles/scoreProcess.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1330,6 +1338,110 @@ opencv_ex/part4/CMakeFiles/39_color_split.dir/rule: cmake_check_build_system
 opencv_ex/part4/CMakeFiles/39_color_split.dir/clean:
 	$(MAKE) $(MAKESILENT) -f opencv_ex/part4/CMakeFiles/39_color_split.dir/build.make opencv_ex/part4/CMakeFiles/39_color_split.dir/clean
 .PHONY : opencv_ex/part4/CMakeFiles/39_color_split.dir/clean
+
+#=============================================================================
+# Target rules for target opencv_ex/part4/CMakeFiles/40_inrange.dir
+
+# All Build rule for target.
+opencv_ex/part4/CMakeFiles/40_inrange.dir/all:
+	$(MAKE) $(MAKESILENT) -f opencv_ex/part4/CMakeFiles/40_inrange.dir/build.make opencv_ex/part4/CMakeFiles/40_inrange.dir/depend
+	$(MAKE) $(MAKESILENT) -f opencv_ex/part4/CMakeFiles/40_inrange.dir/build.make opencv_ex/part4/CMakeFiles/40_inrange.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/aa/jina_2026/build/CMakeFiles --progress-num=77,78 "Built target 40_inrange"
+.PHONY : opencv_ex/part4/CMakeFiles/40_inrange.dir/all
+
+# Build rule for subdir invocation for target.
+opencv_ex/part4/CMakeFiles/40_inrange.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/aa/jina_2026/build/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 opencv_ex/part4/CMakeFiles/40_inrange.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/aa/jina_2026/build/CMakeFiles 0
+.PHONY : opencv_ex/part4/CMakeFiles/40_inrange.dir/rule
+
+# Convenience name for target.
+40_inrange: opencv_ex/part4/CMakeFiles/40_inrange.dir/rule
+.PHONY : 40_inrange
+
+# clean rule for target.
+opencv_ex/part4/CMakeFiles/40_inrange.dir/clean:
+	$(MAKE) $(MAKESILENT) -f opencv_ex/part4/CMakeFiles/40_inrange.dir/build.make opencv_ex/part4/CMakeFiles/40_inrange.dir/clean
+.PHONY : opencv_ex/part4/CMakeFiles/40_inrange.dir/clean
+
+#=============================================================================
+# Target rules for target opencv_ex/part4/CMakeFiles/41_inrange.dir
+
+# All Build rule for target.
+opencv_ex/part4/CMakeFiles/41_inrange.dir/all:
+	$(MAKE) $(MAKESILENT) -f opencv_ex/part4/CMakeFiles/41_inrange.dir/build.make opencv_ex/part4/CMakeFiles/41_inrange.dir/depend
+	$(MAKE) $(MAKESILENT) -f opencv_ex/part4/CMakeFiles/41_inrange.dir/build.make opencv_ex/part4/CMakeFiles/41_inrange.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/aa/jina_2026/build/CMakeFiles --progress-num=79,80 "Built target 41_inrange"
+.PHONY : opencv_ex/part4/CMakeFiles/41_inrange.dir/all
+
+# Build rule for subdir invocation for target.
+opencv_ex/part4/CMakeFiles/41_inrange.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/aa/jina_2026/build/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 opencv_ex/part4/CMakeFiles/41_inrange.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/aa/jina_2026/build/CMakeFiles 0
+.PHONY : opencv_ex/part4/CMakeFiles/41_inrange.dir/rule
+
+# Convenience name for target.
+41_inrange: opencv_ex/part4/CMakeFiles/41_inrange.dir/rule
+.PHONY : 41_inrange
+
+# clean rule for target.
+opencv_ex/part4/CMakeFiles/41_inrange.dir/clean:
+	$(MAKE) $(MAKESILENT) -f opencv_ex/part4/CMakeFiles/41_inrange.dir/build.make opencv_ex/part4/CMakeFiles/41_inrange.dir/clean
+.PHONY : opencv_ex/part4/CMakeFiles/41_inrange.dir/clean
+
+#=============================================================================
+# Target rules for target opencv_ex/part4/CMakeFiles/42_threshold.dir
+
+# All Build rule for target.
+opencv_ex/part4/CMakeFiles/42_threshold.dir/all:
+	$(MAKE) $(MAKESILENT) -f opencv_ex/part4/CMakeFiles/42_threshold.dir/build.make opencv_ex/part4/CMakeFiles/42_threshold.dir/depend
+	$(MAKE) $(MAKESILENT) -f opencv_ex/part4/CMakeFiles/42_threshold.dir/build.make opencv_ex/part4/CMakeFiles/42_threshold.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/aa/jina_2026/build/CMakeFiles --progress-num=81,82 "Built target 42_threshold"
+.PHONY : opencv_ex/part4/CMakeFiles/42_threshold.dir/all
+
+# Build rule for subdir invocation for target.
+opencv_ex/part4/CMakeFiles/42_threshold.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/aa/jina_2026/build/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 opencv_ex/part4/CMakeFiles/42_threshold.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/aa/jina_2026/build/CMakeFiles 0
+.PHONY : opencv_ex/part4/CMakeFiles/42_threshold.dir/rule
+
+# Convenience name for target.
+42_threshold: opencv_ex/part4/CMakeFiles/42_threshold.dir/rule
+.PHONY : 42_threshold
+
+# clean rule for target.
+opencv_ex/part4/CMakeFiles/42_threshold.dir/clean:
+	$(MAKE) $(MAKESILENT) -f opencv_ex/part4/CMakeFiles/42_threshold.dir/build.make opencv_ex/part4/CMakeFiles/42_threshold.dir/clean
+.PHONY : opencv_ex/part4/CMakeFiles/42_threshold.dir/clean
+
+#=============================================================================
+# Target rules for target opencv_ex/part4/CMakeFiles/43_morpholgy.dir
+
+# All Build rule for target.
+opencv_ex/part4/CMakeFiles/43_morpholgy.dir/all:
+	$(MAKE) $(MAKESILENT) -f opencv_ex/part4/CMakeFiles/43_morpholgy.dir/build.make opencv_ex/part4/CMakeFiles/43_morpholgy.dir/depend
+	$(MAKE) $(MAKESILENT) -f opencv_ex/part4/CMakeFiles/43_morpholgy.dir/build.make opencv_ex/part4/CMakeFiles/43_morpholgy.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/aa/jina_2026/build/CMakeFiles --progress-num=83,84 "Built target 43_morpholgy"
+.PHONY : opencv_ex/part4/CMakeFiles/43_morpholgy.dir/all
+
+# Build rule for subdir invocation for target.
+opencv_ex/part4/CMakeFiles/43_morpholgy.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/aa/jina_2026/build/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 opencv_ex/part4/CMakeFiles/43_morpholgy.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/aa/jina_2026/build/CMakeFiles 0
+.PHONY : opencv_ex/part4/CMakeFiles/43_morpholgy.dir/rule
+
+# Convenience name for target.
+43_morpholgy: opencv_ex/part4/CMakeFiles/43_morpholgy.dir/rule
+.PHONY : 43_morpholgy
+
+# clean rule for target.
+opencv_ex/part4/CMakeFiles/43_morpholgy.dir/clean:
+	$(MAKE) $(MAKESILENT) -f opencv_ex/part4/CMakeFiles/43_morpholgy.dir/build.make opencv_ex/part4/CMakeFiles/43_morpholgy.dir/clean
+.PHONY : opencv_ex/part4/CMakeFiles/43_morpholgy.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

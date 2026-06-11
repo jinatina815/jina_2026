@@ -105,4 +105,8 @@ set(CMAKE_DEPEND_INFO_FILES
   "opencv_ex/part4/CMakeFiles/37_houring.dir/DependInfo.cmake"
   "opencv_ex/part4/CMakeFiles/38_houglineP.dir/DependInfo.cmake"
   "opencv_ex/part4/CMakeFiles/39_color_split.dir/DependInfo.cmake"
+  "opencv_ex/part4/CMakeFiles/40_inrange.dir/DependInfo.cmake"
+  "opencv_ex/part4/CMakeFiles/41_inrange.dir/DependInfo.cmake"
+  "opencv_ex/part4/CMakeFiles/42_threshold.dir/DependInfo.cmake"
+  "opencv_ex/part4/CMakeFiles/43_morpholgy.dir/DependInfo.cmake"
   )

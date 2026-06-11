@@ -53,5 +53,9 @@
 /home/aa/jina_2026/build/opencv_ex/part4/CMakeFiles/37_houring.dir
 /home/aa/jina_2026/build/opencv_ex/part4/CMakeFiles/38_houglineP.dir
 /home/aa/jina_2026/build/opencv_ex/part4/CMakeFiles/39_color_split.dir
+/home/aa/jina_2026/build/opencv_ex/part4/CMakeFiles/40_inrange.dir
+/home/aa/jina_2026/build/opencv_ex/part4/CMakeFiles/41_inrange.dir
+/home/aa/jina_2026/build/opencv_ex/part4/CMakeFiles/42_threshold.dir
+/home/aa/jina_2026/build/opencv_ex/part4/CMakeFiles/43_morpholgy.dir
 /home/aa/jina_2026/build/opencv_ex/part4/CMakeFiles/edit_cache.dir
 /home/aa/jina_2026/build/opencv_ex/part4/CMakeFiles/rebuild_cache.dir
