@@ -545,6 +545,97 @@ scoreProcess/fast:
 	$(MAKE) $(MAKESILENT) -f opencv_ex/part4/CMakeFiles/32_perspective.dir/build.make opencv_ex/part4/CMakeFiles/32_perspective.dir/build
 .PHONY : 32_perspective/fast
 
+#=============================================================================
+# Target rules for targets named 33_perspective_ex
+
+# Build rule for target.
+33_perspective_ex: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 33_perspective_ex
+.PHONY : 33_perspective_ex
+
+# fast build rule for target.
+33_perspective_ex/fast:
+	$(MAKE) $(MAKESILENT) -f opencv_ex/part4/CMakeFiles/33_perspective_ex.dir/build.make opencv_ex/part4/CMakeFiles/33_perspective_ex.dir/build
+.PHONY : 33_perspective_ex/fast
+
+#=============================================================================
+# Target rules for targets named 33_perspective_ex2
+
+# Build rule for target.
+33_perspective_ex2: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 33_perspective_ex2
+.PHONY : 33_perspective_ex2
+
+# fast build rule for target.
+33_perspective_ex2/fast:
+	$(MAKE) $(MAKESILENT) -f opencv_ex/part4/CMakeFiles/33_perspective_ex2.dir/build.make opencv_ex/part4/CMakeFiles/33_perspective_ex2.dir/build
+.PHONY : 33_perspective_ex2/fast
+
+#=============================================================================
+# Target rules for targets named 34_perspective_ex2
+
+# Build rule for target.
+34_perspective_ex2: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 34_perspective_ex2
+.PHONY : 34_perspective_ex2
+
+# fast build rule for target.
+34_perspective_ex2/fast:
+	$(MAKE) $(MAKESILENT) -f opencv_ex/part4/CMakeFiles/34_perspective_ex2.dir/build.make opencv_ex/part4/CMakeFiles/34_perspective_ex2.dir/build
+.PHONY : 34_perspective_ex2/fast
+
+#=============================================================================
+# Target rules for targets named 35_sobel
+
+# Build rule for target.
+35_sobel: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 35_sobel
+.PHONY : 35_sobel
+
+# fast build rule for target.
+35_sobel/fast:
+	$(MAKE) $(MAKESILENT) -f opencv_ex/part4/CMakeFiles/35_sobel.dir/build.make opencv_ex/part4/CMakeFiles/35_sobel.dir/build
+.PHONY : 35_sobel/fast
+
+#=============================================================================
+# Target rules for targets named 36_canny
+
+# Build rule for target.
+36_canny: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 36_canny
+.PHONY : 36_canny
+
+# fast build rule for target.
+36_canny/fast:
+	$(MAKE) $(MAKESILENT) -f opencv_ex/part4/CMakeFiles/36_canny.dir/build.make opencv_ex/part4/CMakeFiles/36_canny.dir/build
+.PHONY : 36_canny/fast
+
+#=============================================================================
+# Target rules for targets named 37_houring
+
+# Build rule for target.
+37_houring: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 37_houring
+.PHONY : 37_houring
+
+# fast build rule for target.
+37_houring/fast:
+	$(MAKE) $(MAKESILENT) -f opencv_ex/part4/CMakeFiles/37_houring.dir/build.make opencv_ex/part4/CMakeFiles/37_houring.dir/build
+.PHONY : 37_houring/fast
+
+#=============================================================================
+# Target rules for targets named 38_houglineP
+
+# Build rule for target.
+38_houglineP: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 38_houglineP
+.PHONY : 38_houglineP
+
+# fast build rule for target.
+38_houglineP/fast:
+	$(MAKE) $(MAKESILENT) -f opencv_ex/part4/CMakeFiles/38_houglineP.dir/build.make opencv_ex/part4/CMakeFiles/38_houglineP.dir/build
+.PHONY : 38_houglineP/fast
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -583,6 +674,13 @@ help:
 	@echo "... 30_bilateral"
 	@echo "... 31_affine"
 	@echo "... 32_perspective"
+	@echo "... 33_perspective_ex"
+	@echo "... 33_perspective_ex2"
+	@echo "... 34_perspective_ex2"
+	@echo "... 35_sobel"
+	@echo "... 36_canny"
+	@echo "... 37_houring"
+	@echo "... 38_houglineP"
 	@echo "... date"
 	@echo "... scoreProcess"
 	@echo "... twoDouble"

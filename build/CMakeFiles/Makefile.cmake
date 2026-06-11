@@ -97,4 +97,11 @@ set(CMAKE_DEPEND_INFO_FILES
   "opencv_ex/part3/CMakeFiles/30_bilateral.dir/DependInfo.cmake"
   "opencv_ex/part4/CMakeFiles/31_affine.dir/DependInfo.cmake"
   "opencv_ex/part4/CMakeFiles/32_perspective.dir/DependInfo.cmake"
+  "opencv_ex/part4/CMakeFiles/33_perspective_ex.dir/DependInfo.cmake"
+  "opencv_ex/part4/CMakeFiles/33_perspective_ex2.dir/DependInfo.cmake"
+  "opencv_ex/part4/CMakeFiles/34_perspective_ex2.dir/DependInfo.cmake"
+  "opencv_ex/part4/CMakeFiles/35_sobel.dir/DependInfo.cmake"
+  "opencv_ex/part4/CMakeFiles/36_canny.dir/DependInfo.cmake"
+  "opencv_ex/part4/CMakeFiles/37_houring.dir/DependInfo.cmake"
+  "opencv_ex/part4/CMakeFiles/38_houglineP.dir/DependInfo.cmake"
   )
