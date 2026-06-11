@@ -52,5 +52,6 @@
 /home/aa/jina_2026/build/opencv_ex/part4/CMakeFiles/36_canny.dir
 /home/aa/jina_2026/build/opencv_ex/part4/CMakeFiles/37_houring.dir
 /home/aa/jina_2026/build/opencv_ex/part4/CMakeFiles/38_houglineP.dir
+/home/aa/jina_2026/build/opencv_ex/part4/CMakeFiles/39_color_split.dir
 /home/aa/jina_2026/build/opencv_ex/part4/CMakeFiles/edit_cache.dir
 /home/aa/jina_2026/build/opencv_ex/part4/CMakeFiles/rebuild_cache.dir

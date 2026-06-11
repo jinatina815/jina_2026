@@ -104,4 +104,5 @@ set(CMAKE_DEPEND_INFO_FILES
   "opencv_ex/part4/CMakeFiles/36_canny.dir/DependInfo.cmake"
   "opencv_ex/part4/CMakeFiles/37_houring.dir/DependInfo.cmake"
   "opencv_ex/part4/CMakeFiles/38_houglineP.dir/DependInfo.cmake"
+  "opencv_ex/part4/CMakeFiles/39_color_split.dir/DependInfo.cmake"
   )

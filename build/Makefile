@@ -636,6 +636,19 @@ scoreProcess/fast:
 	$(MAKE) $(MAKESILENT) -f opencv_ex/part4/CMakeFiles/38_houglineP.dir/build.make opencv_ex/part4/CMakeFiles/38_houglineP.dir/build
 .PHONY : 38_houglineP/fast
 
+#=============================================================================
+# Target rules for targets named 39_color_split
+
+# Build rule for target.
+39_color_split: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 39_color_split
+.PHONY : 39_color_split
+
+# fast build rule for target.
+39_color_split/fast:
+	$(MAKE) $(MAKESILENT) -f opencv_ex/part4/CMakeFiles/39_color_split.dir/build.make opencv_ex/part4/CMakeFiles/39_color_split.dir/build
+.PHONY : 39_color_split/fast
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -681,6 +694,7 @@ help:
 	@echo "... 36_canny"
 	@echo "... 37_houring"
 	@echo "... 38_houglineP"
+	@echo "... 39_color_split"
 	@echo "... date"
 	@echo "... scoreProcess"
 	@echo "... twoDouble"
