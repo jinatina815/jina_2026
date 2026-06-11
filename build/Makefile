@@ -701,6 +701,32 @@ scoreProcess/fast:
 	$(MAKE) $(MAKESILENT) -f opencv_ex/part4/CMakeFiles/43_morpholgy.dir/build.make opencv_ex/part4/CMakeFiles/43_morpholgy.dir/build
 .PHONY : 43_morpholgy/fast
 
+#=============================================================================
+# Target rules for targets named 44_labeling
+
+# Build rule for target.
+44_labeling: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 44_labeling
+.PHONY : 44_labeling
+
+# fast build rule for target.
+44_labeling/fast:
+	$(MAKE) $(MAKESILENT) -f opencv_ex/part4/CMakeFiles/44_labeling.dir/build.make opencv_ex/part4/CMakeFiles/44_labeling.dir/build
+.PHONY : 44_labeling/fast
+
+#=============================================================================
+# Target rules for targets named 45_polygon
+
+# Build rule for target.
+45_polygon: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 45_polygon
+.PHONY : 45_polygon
+
+# fast build rule for target.
+45_polygon/fast:
+	$(MAKE) $(MAKESILENT) -f opencv_ex/part4/CMakeFiles/45_polygon.dir/build.make opencv_ex/part4/CMakeFiles/45_polygon.dir/build
+.PHONY : 45_polygon/fast
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -751,6 +777,8 @@ help:
 	@echo "... 41_inrange"
 	@echo "... 42_threshold"
 	@echo "... 43_morpholgy"
+	@echo "... 44_labeling"
+	@echo "... 45_polygon"
 	@echo "... date"
 	@echo "... scoreProcess"
 	@echo "... twoDouble"

@@ -57,5 +57,7 @@
 /home/aa/jina_2026/build/opencv_ex/part4/CMakeFiles/41_inrange.dir
 /home/aa/jina_2026/build/opencv_ex/part4/CMakeFiles/42_threshold.dir
 /home/aa/jina_2026/build/opencv_ex/part4/CMakeFiles/43_morpholgy.dir
+/home/aa/jina_2026/build/opencv_ex/part4/CMakeFiles/44_labeling.dir
+/home/aa/jina_2026/build/opencv_ex/part4/CMakeFiles/45_polygon.dir
 /home/aa/jina_2026/build/opencv_ex/part4/CMakeFiles/edit_cache.dir
 /home/aa/jina_2026/build/opencv_ex/part4/CMakeFiles/rebuild_cache.dir
