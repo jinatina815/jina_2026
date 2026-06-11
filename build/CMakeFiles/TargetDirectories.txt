@@ -44,5 +44,6 @@
 /home/aa/jina_2026/build/opencv_ex/part3/CMakeFiles/edit_cache.dir
 /home/aa/jina_2026/build/opencv_ex/part3/CMakeFiles/rebuild_cache.dir
 /home/aa/jina_2026/build/opencv_ex/part4/CMakeFiles/31_affine.dir
+/home/aa/jina_2026/build/opencv_ex/part4/CMakeFiles/32_perspective.dir
 /home/aa/jina_2026/build/opencv_ex/part4/CMakeFiles/edit_cache.dir
 /home/aa/jina_2026/build/opencv_ex/part4/CMakeFiles/rebuild_cache.dir

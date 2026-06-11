@@ -96,4 +96,5 @@ set(CMAKE_DEPEND_INFO_FILES
   "opencv_ex/part3/CMakeFiles/29_sharpening.dir/DependInfo.cmake"
   "opencv_ex/part3/CMakeFiles/30_bilateral.dir/DependInfo.cmake"
   "opencv_ex/part4/CMakeFiles/31_affine.dir/DependInfo.cmake"
+  "opencv_ex/part4/CMakeFiles/32_perspective.dir/DependInfo.cmake"
   )

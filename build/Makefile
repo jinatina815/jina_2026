@@ -532,6 +532,19 @@ scoreProcess/fast:
 	$(MAKE) $(MAKESILENT) -f opencv_ex/part4/CMakeFiles/31_affine.dir/build.make opencv_ex/part4/CMakeFiles/31_affine.dir/build
 .PHONY : 31_affine/fast
 
+#=============================================================================
+# Target rules for targets named 32_perspective
+
+# Build rule for target.
+32_perspective: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 32_perspective
+.PHONY : 32_perspective
+
+# fast build rule for target.
+32_perspective/fast:
+	$(MAKE) $(MAKESILENT) -f opencv_ex/part4/CMakeFiles/32_perspective.dir/build.make opencv_ex/part4/CMakeFiles/32_perspective.dir/build
+.PHONY : 32_perspective/fast
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -569,6 +582,7 @@ help:
 	@echo "... 29_sharpening"
 	@echo "... 30_bilateral"
 	@echo "... 31_affine"
+	@echo "... 32_perspective"
 	@echo "... date"
 	@echo "... scoreProcess"
 	@echo "... twoDouble"
