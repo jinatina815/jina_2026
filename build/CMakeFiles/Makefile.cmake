@@ -111,4 +111,5 @@ set(CMAKE_DEPEND_INFO_FILES
   "opencv_ex/part4/CMakeFiles/43_morpholgy.dir/DependInfo.cmake"
   "opencv_ex/part4/CMakeFiles/44_labeling.dir/DependInfo.cmake"
   "opencv_ex/part4/CMakeFiles/45_polygon.dir/DependInfo.cmake"
+  "opencv_ex/part4/CMakeFiles/46_page_postit.dir/DependInfo.cmake"
   )

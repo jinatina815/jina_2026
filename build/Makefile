@@ -727,6 +727,19 @@ scoreProcess/fast:
 	$(MAKE) $(MAKESILENT) -f opencv_ex/part4/CMakeFiles/45_polygon.dir/build.make opencv_ex/part4/CMakeFiles/45_polygon.dir/build
 .PHONY : 45_polygon/fast
 
+#=============================================================================
+# Target rules for targets named 46_page_postit
+
+# Build rule for target.
+46_page_postit: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 46_page_postit
+.PHONY : 46_page_postit
+
+# fast build rule for target.
+46_page_postit/fast:
+	$(MAKE) $(MAKESILENT) -f opencv_ex/part4/CMakeFiles/46_page_postit.dir/build.make opencv_ex/part4/CMakeFiles/46_page_postit.dir/build
+.PHONY : 46_page_postit/fast
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -779,6 +792,7 @@ help:
 	@echo "... 43_morpholgy"
 	@echo "... 44_labeling"
 	@echo "... 45_polygon"
+	@echo "... 46_page_postit"
 	@echo "... date"
 	@echo "... scoreProcess"
 	@echo "... twoDouble"
