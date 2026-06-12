@@ -818,6 +818,32 @@ scoreProcess/fast:
 	$(MAKE) $(MAKESILENT) -f opencv_ex/part5/CMakeFiles/52_orb.dir/build.make opencv_ex/part5/CMakeFiles/52_orb.dir/build
 .PHONY : 52_orb/fast
 
+#=============================================================================
+# Target rules for targets named 53_matching
+
+# Build rule for target.
+53_matching: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 53_matching
+.PHONY : 53_matching
+
+# fast build rule for target.
+53_matching/fast:
+	$(MAKE) $(MAKESILENT) -f opencv_ex/part5/CMakeFiles/53_matching.dir/build.make opencv_ex/part5/CMakeFiles/53_matching.dir/build
+.PHONY : 53_matching/fast
+
+#=============================================================================
+# Target rules for targets named 54_knnplane
+
+# Build rule for target.
+54_knnplane: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 54_knnplane
+.PHONY : 54_knnplane
+
+# fast build rule for target.
+54_knnplane/fast:
+	$(MAKE) $(MAKESILENT) -f opencv_ex/part6/CMakeFiles/54_knnplane.dir/build.make opencv_ex/part6/CMakeFiles/54_knnplane.dir/build
+.PHONY : 54_knnplane/fast
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -877,6 +903,8 @@ help:
 	@echo "... 50_qr"
 	@echo "... 51_corners"
 	@echo "... 52_orb"
+	@echo "... 53_matching"
+	@echo "... 54_knnplane"
 	@echo "... date"
 	@echo "... scoreProcess"
 	@echo "... twoDouble"

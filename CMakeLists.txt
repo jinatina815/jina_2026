@@ -22,6 +22,7 @@ add_subdirectory(opencv_ex/part2)
 add_subdirectory(opencv_ex/part3)
 add_subdirectory(opencv_ex/part4)
 add_subdirectory(opencv_ex/part5)
+add_subdirectory(opencv_ex/part6)
 
 # ExternalProject_Add(atmega128_project
 # 	SOURCE_DIR ${CMAKE_SOURCE_DIR}/atmega128

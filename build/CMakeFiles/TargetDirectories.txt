@@ -68,5 +68,9 @@
 /home/aa/jina_2026/build/opencv_ex/part5/CMakeFiles/50_qr.dir
 /home/aa/jina_2026/build/opencv_ex/part5/CMakeFiles/51_corners.dir
 /home/aa/jina_2026/build/opencv_ex/part5/CMakeFiles/52_orb.dir
+/home/aa/jina_2026/build/opencv_ex/part5/CMakeFiles/53_matching.dir
 /home/aa/jina_2026/build/opencv_ex/part5/CMakeFiles/edit_cache.dir
 /home/aa/jina_2026/build/opencv_ex/part5/CMakeFiles/rebuild_cache.dir
+/home/aa/jina_2026/build/opencv_ex/part6/CMakeFiles/54_knnplane.dir
+/home/aa/jina_2026/build/opencv_ex/part6/CMakeFiles/edit_cache.dir
+/home/aa/jina_2026/build/opencv_ex/part6/CMakeFiles/rebuild_cache.dir
