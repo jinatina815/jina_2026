@@ -779,6 +779,45 @@ scoreProcess/fast:
 	$(MAKE) $(MAKESILENT) -f opencv_ex/part5/CMakeFiles/49_hog.dir/build.make opencv_ex/part5/CMakeFiles/49_hog.dir/build
 .PHONY : 49_hog/fast
 
+#=============================================================================
+# Target rules for targets named 50_qr
+
+# Build rule for target.
+50_qr: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 50_qr
+.PHONY : 50_qr
+
+# fast build rule for target.
+50_qr/fast:
+	$(MAKE) $(MAKESILENT) -f opencv_ex/part5/CMakeFiles/50_qr.dir/build.make opencv_ex/part5/CMakeFiles/50_qr.dir/build
+.PHONY : 50_qr/fast
+
+#=============================================================================
+# Target rules for targets named 51_corners
+
+# Build rule for target.
+51_corners: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 51_corners
+.PHONY : 51_corners
+
+# fast build rule for target.
+51_corners/fast:
+	$(MAKE) $(MAKESILENT) -f opencv_ex/part5/CMakeFiles/51_corners.dir/build.make opencv_ex/part5/CMakeFiles/51_corners.dir/build
+.PHONY : 51_corners/fast
+
+#=============================================================================
+# Target rules for targets named 52_orb
+
+# Build rule for target.
+52_orb: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 52_orb
+.PHONY : 52_orb
+
+# fast build rule for target.
+52_orb/fast:
+	$(MAKE) $(MAKESILENT) -f opencv_ex/part5/CMakeFiles/52_orb.dir/build.make opencv_ex/part5/CMakeFiles/52_orb.dir/build
+.PHONY : 52_orb/fast
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -835,6 +874,9 @@ help:
 	@echo "... 47_cascade"
 	@echo "... 48_cascade_ex"
 	@echo "... 49_hog"
+	@echo "... 50_qr"
+	@echo "... 51_corners"
+	@echo "... 52_orb"
 	@echo "... date"
 	@echo "... scoreProcess"
 	@echo "... twoDouble"
