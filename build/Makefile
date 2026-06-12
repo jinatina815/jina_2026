@@ -844,6 +844,19 @@ scoreProcess/fast:
 	$(MAKE) $(MAKESILENT) -f opencv_ex/part6/CMakeFiles/54_knnplane.dir/build.make opencv_ex/part6/CMakeFiles/54_knnplane.dir/build
 .PHONY : 54_knnplane/fast
 
+#=============================================================================
+# Target rules for targets named 55_knndigit
+
+# Build rule for target.
+55_knndigit: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 55_knndigit
+.PHONY : 55_knndigit
+
+# fast build rule for target.
+55_knndigit/fast:
+	$(MAKE) $(MAKESILENT) -f opencv_ex/part6/CMakeFiles/55_knndigit.dir/build.make opencv_ex/part6/CMakeFiles/55_knndigit.dir/build
+.PHONY : 55_knndigit/fast
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -905,6 +918,7 @@ help:
 	@echo "... 52_orb"
 	@echo "... 53_matching"
 	@echo "... 54_knnplane"
+	@echo "... 55_knndigit"
 	@echo "... date"
 	@echo "... scoreProcess"
 	@echo "... twoDouble"

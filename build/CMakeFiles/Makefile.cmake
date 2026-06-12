@@ -125,4 +125,5 @@ set(CMAKE_DEPEND_INFO_FILES
   "opencv_ex/part5/CMakeFiles/52_orb.dir/DependInfo.cmake"
   "opencv_ex/part5/CMakeFiles/53_matching.dir/DependInfo.cmake"
   "opencv_ex/part6/CMakeFiles/54_knnplane.dir/DependInfo.cmake"
+  "opencv_ex/part6/CMakeFiles/55_knndigit.dir/DependInfo.cmake"
   )
