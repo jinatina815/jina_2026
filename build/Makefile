@@ -740,6 +740,45 @@ scoreProcess/fast:
 	$(MAKE) $(MAKESILENT) -f opencv_ex/part4/CMakeFiles/46_page_postit.dir/build.make opencv_ex/part4/CMakeFiles/46_page_postit.dir/build
 .PHONY : 46_page_postit/fast
 
+#=============================================================================
+# Target rules for targets named 47_cascade
+
+# Build rule for target.
+47_cascade: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 47_cascade
+.PHONY : 47_cascade
+
+# fast build rule for target.
+47_cascade/fast:
+	$(MAKE) $(MAKESILENT) -f opencv_ex/part5/CMakeFiles/47_cascade.dir/build.make opencv_ex/part5/CMakeFiles/47_cascade.dir/build
+.PHONY : 47_cascade/fast
+
+#=============================================================================
+# Target rules for targets named 48_cascade_ex
+
+# Build rule for target.
+48_cascade_ex: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 48_cascade_ex
+.PHONY : 48_cascade_ex
+
+# fast build rule for target.
+48_cascade_ex/fast:
+	$(MAKE) $(MAKESILENT) -f opencv_ex/part5/CMakeFiles/48_cascade_ex.dir/build.make opencv_ex/part5/CMakeFiles/48_cascade_ex.dir/build
+.PHONY : 48_cascade_ex/fast
+
+#=============================================================================
+# Target rules for targets named 49_hog
+
+# Build rule for target.
+49_hog: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 49_hog
+.PHONY : 49_hog
+
+# fast build rule for target.
+49_hog/fast:
+	$(MAKE) $(MAKESILENT) -f opencv_ex/part5/CMakeFiles/49_hog.dir/build.make opencv_ex/part5/CMakeFiles/49_hog.dir/build
+.PHONY : 49_hog/fast
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -793,6 +832,9 @@ help:
 	@echo "... 44_labeling"
 	@echo "... 45_polygon"
 	@echo "... 46_page_postit"
+	@echo "... 47_cascade"
+	@echo "... 48_cascade_ex"
+	@echo "... 49_hog"
 	@echo "... date"
 	@echo "... scoreProcess"
 	@echo "... twoDouble"

@@ -62,3 +62,8 @@
 /home/aa/jina_2026/build/opencv_ex/part4/CMakeFiles/46_page_postit.dir
 /home/aa/jina_2026/build/opencv_ex/part4/CMakeFiles/edit_cache.dir
 /home/aa/jina_2026/build/opencv_ex/part4/CMakeFiles/rebuild_cache.dir
+/home/aa/jina_2026/build/opencv_ex/part5/CMakeFiles/47_cascade.dir
+/home/aa/jina_2026/build/opencv_ex/part5/CMakeFiles/48_cascade_ex.dir
+/home/aa/jina_2026/build/opencv_ex/part5/CMakeFiles/49_hog.dir
+/home/aa/jina_2026/build/opencv_ex/part5/CMakeFiles/edit_cache.dir
+/home/aa/jina_2026/build/opencv_ex/part5/CMakeFiles/rebuild_cache.dir

@@ -15,6 +15,7 @@ set(CMAKE_MAKEFILE_DEPENDS
   "../opencv_ex/part2/CMakeLists.txt"
   "../opencv_ex/part3/CMakeLists.txt"
   "../opencv_ex/part4/CMakeLists.txt"
+  "../opencv_ex/part5/CMakeLists.txt"
   "../part5/date/CMakeLists.txt"
   "../part5/twoDouble/CMakeLists.txt"
   "../part6/scoreProcess/CMakeLists.txt"
@@ -60,6 +61,7 @@ set(CMAKE_MAKEFILE_PRODUCTS
   "opencv_ex/part2/CMakeFiles/CMakeDirectoryInformation.cmake"
   "opencv_ex/part3/CMakeFiles/CMakeDirectoryInformation.cmake"
   "opencv_ex/part4/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "opencv_ex/part5/CMakeFiles/CMakeDirectoryInformation.cmake"
   )
 
 # Dependency information for all targets:
@@ -112,4 +114,7 @@ set(CMAKE_DEPEND_INFO_FILES
   "opencv_ex/part4/CMakeFiles/44_labeling.dir/DependInfo.cmake"
   "opencv_ex/part4/CMakeFiles/45_polygon.dir/DependInfo.cmake"
   "opencv_ex/part4/CMakeFiles/46_page_postit.dir/DependInfo.cmake"
+  "opencv_ex/part5/CMakeFiles/47_cascade.dir/DependInfo.cmake"
+  "opencv_ex/part5/CMakeFiles/48_cascade_ex.dir/DependInfo.cmake"
+  "opencv_ex/part5/CMakeFiles/49_hog.dir/DependInfo.cmake"
   )
