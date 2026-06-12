@@ -857,6 +857,32 @@ scoreProcess/fast:
 	$(MAKE) $(MAKESILENT) -f opencv_ex/part6/CMakeFiles/55_knndigit.dir/build.make opencv_ex/part6/CMakeFiles/55_knndigit.dir/build
 .PHONY : 55_knndigit/fast
 
+#=============================================================================
+# Target rules for targets named 56_handpose
+
+# Build rule for target.
+56_handpose: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 56_handpose
+.PHONY : 56_handpose
+
+# fast build rule for target.
+56_handpose/fast:
+	$(MAKE) $(MAKESILENT) -f opencv_ex/part6/CMakeFiles/56_handpose.dir/build.make opencv_ex/part6/CMakeFiles/56_handpose.dir/build
+.PHONY : 56_handpose/fast
+
+#=============================================================================
+# Target rules for targets named classify
+
+# Build rule for target.
+classify: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 classify
+.PHONY : classify
+
+# fast build rule for target.
+classify/fast:
+	$(MAKE) $(MAKESILENT) -f opencv_ex/part6/classify/CMakeFiles/classify.dir/build.make opencv_ex/part6/classify/CMakeFiles/classify.dir/build
+.PHONY : classify/fast
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -919,6 +945,8 @@ help:
 	@echo "... 53_matching"
 	@echo "... 54_knnplane"
 	@echo "... 55_knndigit"
+	@echo "... 56_handpose"
+	@echo "... classify"
 	@echo "... date"
 	@echo "... scoreProcess"
 	@echo "... twoDouble"

@@ -72,6 +72,7 @@ all: opencv_ex/part3/all
 all: opencv_ex/part4/all
 all: opencv_ex/part5/all
 all: opencv_ex/part6/all
+all: opencv_ex/part6/classify/all
 .PHONY : all
 
 # The main recursive "preinstall" target.
@@ -84,6 +85,7 @@ preinstall: opencv_ex/part3/preinstall
 preinstall: opencv_ex/part4/preinstall
 preinstall: opencv_ex/part5/preinstall
 preinstall: opencv_ex/part6/preinstall
+preinstall: opencv_ex/part6/classify/preinstall
 .PHONY : preinstall
 
 # The main recursive "clean" target.
@@ -96,6 +98,7 @@ clean: opencv_ex/part3/clean
 clean: opencv_ex/part4/clean
 clean: opencv_ex/part5/clean
 clean: opencv_ex/part6/clean
+clean: opencv_ex/part6/classify/clean
 .PHONY : clean
 
 #=============================================================================
@@ -273,6 +276,7 @@ opencv_ex/part5/clean: opencv_ex/part5/CMakeFiles/53_matching.dir/clean
 # Recursive "all" directory target.
 opencv_ex/part6/all: opencv_ex/part6/CMakeFiles/54_knnplane.dir/all
 opencv_ex/part6/all: opencv_ex/part6/CMakeFiles/55_knndigit.dir/all
+opencv_ex/part6/all: opencv_ex/part6/CMakeFiles/56_handpose.dir/all
 .PHONY : opencv_ex/part6/all
 
 # Recursive "preinstall" directory target.
@@ -282,7 +286,23 @@ opencv_ex/part6/preinstall:
 # Recursive "clean" directory target.
 opencv_ex/part6/clean: opencv_ex/part6/CMakeFiles/54_knnplane.dir/clean
 opencv_ex/part6/clean: opencv_ex/part6/CMakeFiles/55_knndigit.dir/clean
+opencv_ex/part6/clean: opencv_ex/part6/CMakeFiles/56_handpose.dir/clean
 .PHONY : opencv_ex/part6/clean
+
+#=============================================================================
+# Directory level rules for directory opencv_ex/part6/classify
+
+# Recursive "all" directory target.
+opencv_ex/part6/classify/all: opencv_ex/part6/classify/CMakeFiles/classify.dir/all
+.PHONY : opencv_ex/part6/classify/all
+
+# Recursive "preinstall" directory target.
+opencv_ex/part6/classify/preinstall:
+.PHONY : opencv_ex/part6/classify/preinstall
+
+# Recursive "clean" directory target.
+opencv_ex/part6/classify/clean: opencv_ex/part6/classify/CMakeFiles/classify.dir/clean
+.PHONY : opencv_ex/part6/classify/clean
 
 #=============================================================================
 # Directory level rules for directory part5/date
@@ -336,12 +356,12 @@ part6/scoreProcess/clean: part6/scoreProcess/CMakeFiles/scoreProcess.dir/clean
 part5/date/CMakeFiles/date.dir/all:
 	$(MAKE) $(MAKESILENT) -f part5/date/CMakeFiles/date.dir/build.make part5/date/CMakeFiles/date.dir/depend
 	$(MAKE) $(MAKESILENT) -f part5/date/CMakeFiles/date.dir/build.make part5/date/CMakeFiles/date.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/aa/jina_2026/build/CMakeFiles --progress-num=93,94 "Built target date"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/aa/jina_2026/build/CMakeFiles --progress-num=93,94,95 "Built target date"
 .PHONY : part5/date/CMakeFiles/date.dir/all
 
 # Build rule for subdir invocation for target.
 part5/date/CMakeFiles/date.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/aa/jina_2026/build/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/aa/jina_2026/build/CMakeFiles 3
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 part5/date/CMakeFiles/date.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/aa/jina_2026/build/CMakeFiles 0
 .PHONY : part5/date/CMakeFiles/date.dir/rule
@@ -388,12 +408,12 @@ part5/twoDouble/CMakeFiles/twoDouble.dir/clean:
 part6/scoreProcess/CMakeFiles/scoreProcess.dir/all:
 	$(MAKE) $(MAKESILENT) -f part6/scoreProcess/CMakeFiles/scoreProcess.dir/build.make part6/scoreProcess/CMakeFiles/scoreProcess.dir/depend
 	$(MAKE) $(MAKESILENT) -f part6/scoreProcess/CMakeFiles/scoreProcess.dir/build.make part6/scoreProcess/CMakeFiles/scoreProcess.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/aa/jina_2026/build/CMakeFiles --progress-num=95,96,97 "Built target scoreProcess"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/aa/jina_2026/build/CMakeFiles --progress-num=96,97 "Built target scoreProcess"
 .PHONY : part6/scoreProcess/CMakeFiles/scoreProcess.dir/all
 
 # Build rule for subdir invocation for target.
 part6/scoreProcess/CMakeFiles/scoreProcess.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/aa/jina_2026/build/CMakeFiles 3
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/aa/jina_2026/build/CMakeFiles 2
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 part6/scoreProcess/CMakeFiles/scoreProcess.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/aa/jina_2026/build/CMakeFiles 0
 .PHONY : part6/scoreProcess/CMakeFiles/scoreProcess.dir/rule
@@ -466,12 +486,12 @@ opencv_ex/CMakeFiles/02_basic0p.dir/clean:
 opencv_ex/CMakeFiles/03_matOp.dir/all:
 	$(MAKE) $(MAKESILENT) -f opencv_ex/CMakeFiles/03_matOp.dir/build.make opencv_ex/CMakeFiles/03_matOp.dir/depend
 	$(MAKE) $(MAKESILENT) -f opencv_ex/CMakeFiles/03_matOp.dir/build.make opencv_ex/CMakeFiles/03_matOp.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/aa/jina_2026/build/CMakeFiles --progress-num=4,5 "Built target 03_matOp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/aa/jina_2026/build/CMakeFiles --progress-num=4 "Built target 03_matOp"
 .PHONY : opencv_ex/CMakeFiles/03_matOp.dir/all
 
 # Build rule for subdir invocation for target.
 opencv_ex/CMakeFiles/03_matOp.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/aa/jina_2026/build/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/aa/jina_2026/build/CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 opencv_ex/CMakeFiles/03_matOp.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/aa/jina_2026/build/CMakeFiles 0
 .PHONY : opencv_ex/CMakeFiles/03_matOp.dir/rule
@@ -492,12 +512,12 @@ opencv_ex/CMakeFiles/03_matOp.dir/clean:
 opencv_ex/CMakeFiles/04_inputArray.dir/all:
 	$(MAKE) $(MAKESILENT) -f opencv_ex/CMakeFiles/04_inputArray.dir/build.make opencv_ex/CMakeFiles/04_inputArray.dir/depend
 	$(MAKE) $(MAKESILENT) -f opencv_ex/CMakeFiles/04_inputArray.dir/build.make opencv_ex/CMakeFiles/04_inputArray.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/aa/jina_2026/build/CMakeFiles --progress-num=6 "Built target 04_inputArray"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/aa/jina_2026/build/CMakeFiles --progress-num=5,6 "Built target 04_inputArray"
 .PHONY : opencv_ex/CMakeFiles/04_inputArray.dir/all
 
 # Build rule for subdir invocation for target.
 opencv_ex/CMakeFiles/04_inputArray.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/aa/jina_2026/build/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/aa/jina_2026/build/CMakeFiles 2
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 opencv_ex/CMakeFiles/04_inputArray.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/aa/jina_2026/build/CMakeFiles 0
 .PHONY : opencv_ex/CMakeFiles/04_inputArray.dir/rule
@@ -544,12 +564,12 @@ opencv_ex/CMakeFiles/05_matOp2.dir/clean:
 opencv_ex/CMakeFiles/06_video.dir/all:
 	$(MAKE) $(MAKESILENT) -f opencv_ex/CMakeFiles/06_video.dir/build.make opencv_ex/CMakeFiles/06_video.dir/depend
 	$(MAKE) $(MAKESILENT) -f opencv_ex/CMakeFiles/06_video.dir/build.make opencv_ex/CMakeFiles/06_video.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/aa/jina_2026/build/CMakeFiles --progress-num=9,10 "Built target 06_video"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/aa/jina_2026/build/CMakeFiles --progress-num=9 "Built target 06_video"
 .PHONY : opencv_ex/CMakeFiles/06_video.dir/all
 
 # Build rule for subdir invocation for target.
 opencv_ex/CMakeFiles/06_video.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/aa/jina_2026/build/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/aa/jina_2026/build/CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 opencv_ex/CMakeFiles/06_video.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/aa/jina_2026/build/CMakeFiles 0
 .PHONY : opencv_ex/CMakeFiles/06_video.dir/rule
@@ -570,12 +590,12 @@ opencv_ex/CMakeFiles/06_video.dir/clean:
 opencv_ex/part2/CMakeFiles/09_videoSave.dir/all:
 	$(MAKE) $(MAKESILENT) -f opencv_ex/part2/CMakeFiles/09_videoSave.dir/build.make opencv_ex/part2/CMakeFiles/09_videoSave.dir/depend
 	$(MAKE) $(MAKESILENT) -f opencv_ex/part2/CMakeFiles/09_videoSave.dir/build.make opencv_ex/part2/CMakeFiles/09_videoSave.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/aa/jina_2026/build/CMakeFiles --progress-num=11 "Built target 09_videoSave"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/aa/jina_2026/build/CMakeFiles --progress-num=10,11 "Built target 09_videoSave"
 .PHONY : opencv_ex/part2/CMakeFiles/09_videoSave.dir/all
 
 # Build rule for subdir invocation for target.
 opencv_ex/part2/CMakeFiles/09_videoSave.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/aa/jina_2026/build/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/aa/jina_2026/build/CMakeFiles 2
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 opencv_ex/part2/CMakeFiles/09_videoSave.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/aa/jina_2026/build/CMakeFiles 0
 .PHONY : opencv_ex/part2/CMakeFiles/09_videoSave.dir/rule
@@ -622,12 +642,12 @@ opencv_ex/part2/CMakeFiles/10_drawing.dir/clean:
 opencv_ex/part2/CMakeFiles/11_drawing_example.dir/all:
 	$(MAKE) $(MAKESILENT) -f opencv_ex/part2/CMakeFiles/11_drawing_example.dir/build.make opencv_ex/part2/CMakeFiles/11_drawing_example.dir/depend
 	$(MAKE) $(MAKESILENT) -f opencv_ex/part2/CMakeFiles/11_drawing_example.dir/build.make opencv_ex/part2/CMakeFiles/11_drawing_example.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/aa/jina_2026/build/CMakeFiles --progress-num=14,15 "Built target 11_drawing_example"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/aa/jina_2026/build/CMakeFiles --progress-num=14 "Built target 11_drawing_example"
 .PHONY : opencv_ex/part2/CMakeFiles/11_drawing_example.dir/all
 
 # Build rule for subdir invocation for target.
 opencv_ex/part2/CMakeFiles/11_drawing_example.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/aa/jina_2026/build/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/aa/jina_2026/build/CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 opencv_ex/part2/CMakeFiles/11_drawing_example.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/aa/jina_2026/build/CMakeFiles 0
 .PHONY : opencv_ex/part2/CMakeFiles/11_drawing_example.dir/rule
@@ -648,7 +668,7 @@ opencv_ex/part2/CMakeFiles/11_drawing_example.dir/clean:
 opencv_ex/part2/CMakeFiles/12_drawing_example.dir/all:
 	$(MAKE) $(MAKESILENT) -f opencv_ex/part2/CMakeFiles/12_drawing_example.dir/build.make opencv_ex/part2/CMakeFiles/12_drawing_example.dir/depend
 	$(MAKE) $(MAKESILENT) -f opencv_ex/part2/CMakeFiles/12_drawing_example.dir/build.make opencv_ex/part2/CMakeFiles/12_drawing_example.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/aa/jina_2026/build/CMakeFiles --progress-num=16,17 "Built target 12_drawing_example"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/aa/jina_2026/build/CMakeFiles --progress-num=15,16 "Built target 12_drawing_example"
 .PHONY : opencv_ex/part2/CMakeFiles/12_drawing_example.dir/all
 
 # Build rule for subdir invocation for target.
@@ -674,12 +694,12 @@ opencv_ex/part2/CMakeFiles/12_drawing_example.dir/clean:
 opencv_ex/part2/CMakeFiles/13_font.dir/all:
 	$(MAKE) $(MAKESILENT) -f opencv_ex/part2/CMakeFiles/13_font.dir/build.make opencv_ex/part2/CMakeFiles/13_font.dir/depend
 	$(MAKE) $(MAKESILENT) -f opencv_ex/part2/CMakeFiles/13_font.dir/build.make opencv_ex/part2/CMakeFiles/13_font.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/aa/jina_2026/build/CMakeFiles --progress-num=18 "Built target 13_font"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/aa/jina_2026/build/CMakeFiles --progress-num=17,18 "Built target 13_font"
 .PHONY : opencv_ex/part2/CMakeFiles/13_font.dir/all
 
 # Build rule for subdir invocation for target.
 opencv_ex/part2/CMakeFiles/13_font.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/aa/jina_2026/build/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/aa/jina_2026/build/CMakeFiles 2
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 opencv_ex/part2/CMakeFiles/13_font.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/aa/jina_2026/build/CMakeFiles 0
 .PHONY : opencv_ex/part2/CMakeFiles/13_font.dir/rule
@@ -700,12 +720,12 @@ opencv_ex/part2/CMakeFiles/13_font.dir/clean:
 opencv_ex/part2/CMakeFiles/14_freetype.dir/all:
 	$(MAKE) $(MAKESILENT) -f opencv_ex/part2/CMakeFiles/14_freetype.dir/build.make opencv_ex/part2/CMakeFiles/14_freetype.dir/depend
 	$(MAKE) $(MAKESILENT) -f opencv_ex/part2/CMakeFiles/14_freetype.dir/build.make opencv_ex/part2/CMakeFiles/14_freetype.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/aa/jina_2026/build/CMakeFiles --progress-num=19,20 "Built target 14_freetype"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/aa/jina_2026/build/CMakeFiles --progress-num=19 "Built target 14_freetype"
 .PHONY : opencv_ex/part2/CMakeFiles/14_freetype.dir/all
 
 # Build rule for subdir invocation for target.
 opencv_ex/part2/CMakeFiles/14_freetype.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/aa/jina_2026/build/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/aa/jina_2026/build/CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 opencv_ex/part2/CMakeFiles/14_freetype.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/aa/jina_2026/build/CMakeFiles 0
 .PHONY : opencv_ex/part2/CMakeFiles/14_freetype.dir/rule
@@ -726,7 +746,7 @@ opencv_ex/part2/CMakeFiles/14_freetype.dir/clean:
 opencv_ex/part2/CMakeFiles/15_keyboard.dir/all:
 	$(MAKE) $(MAKESILENT) -f opencv_ex/part2/CMakeFiles/15_keyboard.dir/build.make opencv_ex/part2/CMakeFiles/15_keyboard.dir/depend
 	$(MAKE) $(MAKESILENT) -f opencv_ex/part2/CMakeFiles/15_keyboard.dir/build.make opencv_ex/part2/CMakeFiles/15_keyboard.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/aa/jina_2026/build/CMakeFiles --progress-num=21,22 "Built target 15_keyboard"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/aa/jina_2026/build/CMakeFiles --progress-num=20,21 "Built target 15_keyboard"
 .PHONY : opencv_ex/part2/CMakeFiles/15_keyboard.dir/all
 
 # Build rule for subdir invocation for target.
@@ -752,12 +772,12 @@ opencv_ex/part2/CMakeFiles/15_keyboard.dir/clean:
 opencv_ex/part2/CMakeFiles/16_tick.dir/all:
 	$(MAKE) $(MAKESILENT) -f opencv_ex/part2/CMakeFiles/16_tick.dir/build.make opencv_ex/part2/CMakeFiles/16_tick.dir/depend
 	$(MAKE) $(MAKESILENT) -f opencv_ex/part2/CMakeFiles/16_tick.dir/build.make opencv_ex/part2/CMakeFiles/16_tick.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/aa/jina_2026/build/CMakeFiles --progress-num=23 "Built target 16_tick"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/aa/jina_2026/build/CMakeFiles --progress-num=22,23 "Built target 16_tick"
 .PHONY : opencv_ex/part2/CMakeFiles/16_tick.dir/all
 
 # Build rule for subdir invocation for target.
 opencv_ex/part2/CMakeFiles/16_tick.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/aa/jina_2026/build/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/aa/jina_2026/build/CMakeFiles 2
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 opencv_ex/part2/CMakeFiles/16_tick.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/aa/jina_2026/build/CMakeFiles 0
 .PHONY : opencv_ex/part2/CMakeFiles/16_tick.dir/rule
@@ -778,12 +798,12 @@ opencv_ex/part2/CMakeFiles/16_tick.dir/clean:
 opencv_ex/part2/CMakeFiles/17_mouse.dir/all:
 	$(MAKE) $(MAKESILENT) -f opencv_ex/part2/CMakeFiles/17_mouse.dir/build.make opencv_ex/part2/CMakeFiles/17_mouse.dir/depend
 	$(MAKE) $(MAKESILENT) -f opencv_ex/part2/CMakeFiles/17_mouse.dir/build.make opencv_ex/part2/CMakeFiles/17_mouse.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/aa/jina_2026/build/CMakeFiles --progress-num=24,25 "Built target 17_mouse"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/aa/jina_2026/build/CMakeFiles --progress-num=24 "Built target 17_mouse"
 .PHONY : opencv_ex/part2/CMakeFiles/17_mouse.dir/all
 
 # Build rule for subdir invocation for target.
 opencv_ex/part2/CMakeFiles/17_mouse.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/aa/jina_2026/build/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/aa/jina_2026/build/CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 opencv_ex/part2/CMakeFiles/17_mouse.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/aa/jina_2026/build/CMakeFiles 0
 .PHONY : opencv_ex/part2/CMakeFiles/17_mouse.dir/rule
@@ -804,7 +824,7 @@ opencv_ex/part2/CMakeFiles/17_mouse.dir/clean:
 opencv_ex/part2/CMakeFiles/18_mouse_example.dir/all:
 	$(MAKE) $(MAKESILENT) -f opencv_ex/part2/CMakeFiles/18_mouse_example.dir/build.make opencv_ex/part2/CMakeFiles/18_mouse_example.dir/depend
 	$(MAKE) $(MAKESILENT) -f opencv_ex/part2/CMakeFiles/18_mouse_example.dir/build.make opencv_ex/part2/CMakeFiles/18_mouse_example.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/aa/jina_2026/build/CMakeFiles --progress-num=26,27 "Built target 18_mouse_example"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/aa/jina_2026/build/CMakeFiles --progress-num=25,26 "Built target 18_mouse_example"
 .PHONY : opencv_ex/part2/CMakeFiles/18_mouse_example.dir/all
 
 # Build rule for subdir invocation for target.
@@ -830,7 +850,7 @@ opencv_ex/part2/CMakeFiles/18_mouse_example.dir/clean:
 opencv_ex/part2/CMakeFiles/19_trackbar.dir/all:
 	$(MAKE) $(MAKESILENT) -f opencv_ex/part2/CMakeFiles/19_trackbar.dir/build.make opencv_ex/part2/CMakeFiles/19_trackbar.dir/depend
 	$(MAKE) $(MAKESILENT) -f opencv_ex/part2/CMakeFiles/19_trackbar.dir/build.make opencv_ex/part2/CMakeFiles/19_trackbar.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/aa/jina_2026/build/CMakeFiles --progress-num=28,29 "Built target 19_trackbar"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/aa/jina_2026/build/CMakeFiles --progress-num=27,28 "Built target 19_trackbar"
 .PHONY : opencv_ex/part2/CMakeFiles/19_trackbar.dir/all
 
 # Build rule for subdir invocation for target.
@@ -856,7 +876,7 @@ opencv_ex/part2/CMakeFiles/19_trackbar.dir/clean:
 opencv_ex/part2/CMakeFiles/20_filestorage.dir/all:
 	$(MAKE) $(MAKESILENT) -f opencv_ex/part2/CMakeFiles/20_filestorage.dir/build.make opencv_ex/part2/CMakeFiles/20_filestorage.dir/depend
 	$(MAKE) $(MAKESILENT) -f opencv_ex/part2/CMakeFiles/20_filestorage.dir/build.make opencv_ex/part2/CMakeFiles/20_filestorage.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/aa/jina_2026/build/CMakeFiles --progress-num=30 "Built target 20_filestorage"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/aa/jina_2026/build/CMakeFiles --progress-num=29 "Built target 20_filestorage"
 .PHONY : opencv_ex/part2/CMakeFiles/20_filestorage.dir/all
 
 # Build rule for subdir invocation for target.
@@ -882,7 +902,7 @@ opencv_ex/part2/CMakeFiles/20_filestorage.dir/clean:
 opencv_ex/part2/CMakeFiles/21_filestorage2.dir/all:
 	$(MAKE) $(MAKESILENT) -f opencv_ex/part2/CMakeFiles/21_filestorage2.dir/build.make opencv_ex/part2/CMakeFiles/21_filestorage2.dir/depend
 	$(MAKE) $(MAKESILENT) -f opencv_ex/part2/CMakeFiles/21_filestorage2.dir/build.make opencv_ex/part2/CMakeFiles/21_filestorage2.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/aa/jina_2026/build/CMakeFiles --progress-num=31,32 "Built target 21_filestorage2"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/aa/jina_2026/build/CMakeFiles --progress-num=30,31 "Built target 21_filestorage2"
 .PHONY : opencv_ex/part2/CMakeFiles/21_filestorage2.dir/all
 
 # Build rule for subdir invocation for target.
@@ -908,7 +928,7 @@ opencv_ex/part2/CMakeFiles/21_filestorage2.dir/clean:
 opencv_ex/part2/CMakeFiles/22_mask.dir/all:
 	$(MAKE) $(MAKESILENT) -f opencv_ex/part2/CMakeFiles/22_mask.dir/build.make opencv_ex/part2/CMakeFiles/22_mask.dir/depend
 	$(MAKE) $(MAKESILENT) -f opencv_ex/part2/CMakeFiles/22_mask.dir/build.make opencv_ex/part2/CMakeFiles/22_mask.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/aa/jina_2026/build/CMakeFiles --progress-num=33,34 "Built target 22_mask"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/aa/jina_2026/build/CMakeFiles --progress-num=32,33 "Built target 22_mask"
 .PHONY : opencv_ex/part2/CMakeFiles/22_mask.dir/all
 
 # Build rule for subdir invocation for target.
@@ -934,7 +954,7 @@ opencv_ex/part2/CMakeFiles/22_mask.dir/clean:
 opencv_ex/part3/CMakeFiles/23_brightness.dir/all:
 	$(MAKE) $(MAKESILENT) -f opencv_ex/part3/CMakeFiles/23_brightness.dir/build.make opencv_ex/part3/CMakeFiles/23_brightness.dir/depend
 	$(MAKE) $(MAKESILENT) -f opencv_ex/part3/CMakeFiles/23_brightness.dir/build.make opencv_ex/part3/CMakeFiles/23_brightness.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/aa/jina_2026/build/CMakeFiles --progress-num=35 "Built target 23_brightness"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/aa/jina_2026/build/CMakeFiles --progress-num=34 "Built target 23_brightness"
 .PHONY : opencv_ex/part3/CMakeFiles/23_brightness.dir/all
 
 # Build rule for subdir invocation for target.
@@ -960,7 +980,7 @@ opencv_ex/part3/CMakeFiles/23_brightness.dir/clean:
 opencv_ex/part3/CMakeFiles/24_contrast.dir/all:
 	$(MAKE) $(MAKESILENT) -f opencv_ex/part3/CMakeFiles/24_contrast.dir/build.make opencv_ex/part3/CMakeFiles/24_contrast.dir/depend
 	$(MAKE) $(MAKESILENT) -f opencv_ex/part3/CMakeFiles/24_contrast.dir/build.make opencv_ex/part3/CMakeFiles/24_contrast.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/aa/jina_2026/build/CMakeFiles --progress-num=36,37 "Built target 24_contrast"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/aa/jina_2026/build/CMakeFiles --progress-num=35,36 "Built target 24_contrast"
 .PHONY : opencv_ex/part3/CMakeFiles/24_contrast.dir/all
 
 # Build rule for subdir invocation for target.
@@ -986,7 +1006,7 @@ opencv_ex/part3/CMakeFiles/24_contrast.dir/clean:
 opencv_ex/part3/CMakeFiles/25_histogriam.dir/all:
 	$(MAKE) $(MAKESILENT) -f opencv_ex/part3/CMakeFiles/25_histogriam.dir/build.make opencv_ex/part3/CMakeFiles/25_histogriam.dir/depend
 	$(MAKE) $(MAKESILENT) -f opencv_ex/part3/CMakeFiles/25_histogriam.dir/build.make opencv_ex/part3/CMakeFiles/25_histogriam.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/aa/jina_2026/build/CMakeFiles --progress-num=38,39 "Built target 25_histogriam"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/aa/jina_2026/build/CMakeFiles --progress-num=37,38 "Built target 25_histogriam"
 .PHONY : opencv_ex/part3/CMakeFiles/25_histogriam.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1012,12 +1032,12 @@ opencv_ex/part3/CMakeFiles/25_histogriam.dir/clean:
 opencv_ex/part3/CMakeFiles/26_arithmetic.dir/all:
 	$(MAKE) $(MAKESILENT) -f opencv_ex/part3/CMakeFiles/26_arithmetic.dir/build.make opencv_ex/part3/CMakeFiles/26_arithmetic.dir/depend
 	$(MAKE) $(MAKESILENT) -f opencv_ex/part3/CMakeFiles/26_arithmetic.dir/build.make opencv_ex/part3/CMakeFiles/26_arithmetic.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/aa/jina_2026/build/CMakeFiles --progress-num=40,41 "Built target 26_arithmetic"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/aa/jina_2026/build/CMakeFiles --progress-num=39 "Built target 26_arithmetic"
 .PHONY : opencv_ex/part3/CMakeFiles/26_arithmetic.dir/all
 
 # Build rule for subdir invocation for target.
 opencv_ex/part3/CMakeFiles/26_arithmetic.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/aa/jina_2026/build/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/aa/jina_2026/build/CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 opencv_ex/part3/CMakeFiles/26_arithmetic.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/aa/jina_2026/build/CMakeFiles 0
 .PHONY : opencv_ex/part3/CMakeFiles/26_arithmetic.dir/rule
@@ -1038,12 +1058,12 @@ opencv_ex/part3/CMakeFiles/26_arithmetic.dir/clean:
 opencv_ex/part3/CMakeFiles/27_embossing.dir/all:
 	$(MAKE) $(MAKESILENT) -f opencv_ex/part3/CMakeFiles/27_embossing.dir/build.make opencv_ex/part3/CMakeFiles/27_embossing.dir/depend
 	$(MAKE) $(MAKESILENT) -f opencv_ex/part3/CMakeFiles/27_embossing.dir/build.make opencv_ex/part3/CMakeFiles/27_embossing.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/aa/jina_2026/build/CMakeFiles --progress-num=42 "Built target 27_embossing"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/aa/jina_2026/build/CMakeFiles --progress-num=40,41 "Built target 27_embossing"
 .PHONY : opencv_ex/part3/CMakeFiles/27_embossing.dir/all
 
 # Build rule for subdir invocation for target.
 opencv_ex/part3/CMakeFiles/27_embossing.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/aa/jina_2026/build/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/aa/jina_2026/build/CMakeFiles 2
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 opencv_ex/part3/CMakeFiles/27_embossing.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/aa/jina_2026/build/CMakeFiles 0
 .PHONY : opencv_ex/part3/CMakeFiles/27_embossing.dir/rule
@@ -1064,12 +1084,12 @@ opencv_ex/part3/CMakeFiles/27_embossing.dir/clean:
 opencv_ex/part3/CMakeFiles/28_blurr.dir/all:
 	$(MAKE) $(MAKESILENT) -f opencv_ex/part3/CMakeFiles/28_blurr.dir/build.make opencv_ex/part3/CMakeFiles/28_blurr.dir/depend
 	$(MAKE) $(MAKESILENT) -f opencv_ex/part3/CMakeFiles/28_blurr.dir/build.make opencv_ex/part3/CMakeFiles/28_blurr.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/aa/jina_2026/build/CMakeFiles --progress-num=43,44 "Built target 28_blurr"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/aa/jina_2026/build/CMakeFiles --progress-num=42 "Built target 28_blurr"
 .PHONY : opencv_ex/part3/CMakeFiles/28_blurr.dir/all
 
 # Build rule for subdir invocation for target.
 opencv_ex/part3/CMakeFiles/28_blurr.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/aa/jina_2026/build/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/aa/jina_2026/build/CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 opencv_ex/part3/CMakeFiles/28_blurr.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/aa/jina_2026/build/CMakeFiles 0
 .PHONY : opencv_ex/part3/CMakeFiles/28_blurr.dir/rule
@@ -1090,7 +1110,7 @@ opencv_ex/part3/CMakeFiles/28_blurr.dir/clean:
 opencv_ex/part3/CMakeFiles/29_sharpening.dir/all:
 	$(MAKE) $(MAKESILENT) -f opencv_ex/part3/CMakeFiles/29_sharpening.dir/build.make opencv_ex/part3/CMakeFiles/29_sharpening.dir/depend
 	$(MAKE) $(MAKESILENT) -f opencv_ex/part3/CMakeFiles/29_sharpening.dir/build.make opencv_ex/part3/CMakeFiles/29_sharpening.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/aa/jina_2026/build/CMakeFiles --progress-num=45,46 "Built target 29_sharpening"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/aa/jina_2026/build/CMakeFiles --progress-num=43,44 "Built target 29_sharpening"
 .PHONY : opencv_ex/part3/CMakeFiles/29_sharpening.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1116,12 +1136,12 @@ opencv_ex/part3/CMakeFiles/29_sharpening.dir/clean:
 opencv_ex/part3/CMakeFiles/30_bilateral.dir/all:
 	$(MAKE) $(MAKESILENT) -f opencv_ex/part3/CMakeFiles/30_bilateral.dir/build.make opencv_ex/part3/CMakeFiles/30_bilateral.dir/depend
 	$(MAKE) $(MAKESILENT) -f opencv_ex/part3/CMakeFiles/30_bilateral.dir/build.make opencv_ex/part3/CMakeFiles/30_bilateral.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/aa/jina_2026/build/CMakeFiles --progress-num=47 "Built target 30_bilateral"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/aa/jina_2026/build/CMakeFiles --progress-num=45,46 "Built target 30_bilateral"
 .PHONY : opencv_ex/part3/CMakeFiles/30_bilateral.dir/all
 
 # Build rule for subdir invocation for target.
 opencv_ex/part3/CMakeFiles/30_bilateral.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/aa/jina_2026/build/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/aa/jina_2026/build/CMakeFiles 2
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 opencv_ex/part3/CMakeFiles/30_bilateral.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/aa/jina_2026/build/CMakeFiles 0
 .PHONY : opencv_ex/part3/CMakeFiles/30_bilateral.dir/rule
@@ -1142,12 +1162,12 @@ opencv_ex/part3/CMakeFiles/30_bilateral.dir/clean:
 opencv_ex/part4/CMakeFiles/31_affine.dir/all:
 	$(MAKE) $(MAKESILENT) -f opencv_ex/part4/CMakeFiles/31_affine.dir/build.make opencv_ex/part4/CMakeFiles/31_affine.dir/depend
 	$(MAKE) $(MAKESILENT) -f opencv_ex/part4/CMakeFiles/31_affine.dir/build.make opencv_ex/part4/CMakeFiles/31_affine.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/aa/jina_2026/build/CMakeFiles --progress-num=48,49 "Built target 31_affine"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/aa/jina_2026/build/CMakeFiles --progress-num=47 "Built target 31_affine"
 .PHONY : opencv_ex/part4/CMakeFiles/31_affine.dir/all
 
 # Build rule for subdir invocation for target.
 opencv_ex/part4/CMakeFiles/31_affine.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/aa/jina_2026/build/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/aa/jina_2026/build/CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 opencv_ex/part4/CMakeFiles/31_affine.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/aa/jina_2026/build/CMakeFiles 0
 .PHONY : opencv_ex/part4/CMakeFiles/31_affine.dir/rule
@@ -1168,7 +1188,7 @@ opencv_ex/part4/CMakeFiles/31_affine.dir/clean:
 opencv_ex/part4/CMakeFiles/32_perspective.dir/all:
 	$(MAKE) $(MAKESILENT) -f opencv_ex/part4/CMakeFiles/32_perspective.dir/build.make opencv_ex/part4/CMakeFiles/32_perspective.dir/depend
 	$(MAKE) $(MAKESILENT) -f opencv_ex/part4/CMakeFiles/32_perspective.dir/build.make opencv_ex/part4/CMakeFiles/32_perspective.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/aa/jina_2026/build/CMakeFiles --progress-num=50,51 "Built target 32_perspective"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/aa/jina_2026/build/CMakeFiles --progress-num=48,49 "Built target 32_perspective"
 .PHONY : opencv_ex/part4/CMakeFiles/32_perspective.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1194,12 +1214,12 @@ opencv_ex/part4/CMakeFiles/32_perspective.dir/clean:
 opencv_ex/part4/CMakeFiles/33_perspective_ex.dir/all:
 	$(MAKE) $(MAKESILENT) -f opencv_ex/part4/CMakeFiles/33_perspective_ex.dir/build.make opencv_ex/part4/CMakeFiles/33_perspective_ex.dir/depend
 	$(MAKE) $(MAKESILENT) -f opencv_ex/part4/CMakeFiles/33_perspective_ex.dir/build.make opencv_ex/part4/CMakeFiles/33_perspective_ex.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/aa/jina_2026/build/CMakeFiles --progress-num=52 "Built target 33_perspective_ex"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/aa/jina_2026/build/CMakeFiles --progress-num=50,51 "Built target 33_perspective_ex"
 .PHONY : opencv_ex/part4/CMakeFiles/33_perspective_ex.dir/all
 
 # Build rule for subdir invocation for target.
 opencv_ex/part4/CMakeFiles/33_perspective_ex.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/aa/jina_2026/build/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/aa/jina_2026/build/CMakeFiles 2
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 opencv_ex/part4/CMakeFiles/33_perspective_ex.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/aa/jina_2026/build/CMakeFiles 0
 .PHONY : opencv_ex/part4/CMakeFiles/33_perspective_ex.dir/rule
@@ -1220,12 +1240,12 @@ opencv_ex/part4/CMakeFiles/33_perspective_ex.dir/clean:
 opencv_ex/part4/CMakeFiles/33_perspective_ex2.dir/all:
 	$(MAKE) $(MAKESILENT) -f opencv_ex/part4/CMakeFiles/33_perspective_ex2.dir/build.make opencv_ex/part4/CMakeFiles/33_perspective_ex2.dir/depend
 	$(MAKE) $(MAKESILENT) -f opencv_ex/part4/CMakeFiles/33_perspective_ex2.dir/build.make opencv_ex/part4/CMakeFiles/33_perspective_ex2.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/aa/jina_2026/build/CMakeFiles --progress-num=53,54 "Built target 33_perspective_ex2"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/aa/jina_2026/build/CMakeFiles --progress-num=52 "Built target 33_perspective_ex2"
 .PHONY : opencv_ex/part4/CMakeFiles/33_perspective_ex2.dir/all
 
 # Build rule for subdir invocation for target.
 opencv_ex/part4/CMakeFiles/33_perspective_ex2.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/aa/jina_2026/build/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/aa/jina_2026/build/CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 opencv_ex/part4/CMakeFiles/33_perspective_ex2.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/aa/jina_2026/build/CMakeFiles 0
 .PHONY : opencv_ex/part4/CMakeFiles/33_perspective_ex2.dir/rule
@@ -1246,7 +1266,7 @@ opencv_ex/part4/CMakeFiles/33_perspective_ex2.dir/clean:
 opencv_ex/part4/CMakeFiles/34_perspective_ex2.dir/all:
 	$(MAKE) $(MAKESILENT) -f opencv_ex/part4/CMakeFiles/34_perspective_ex2.dir/build.make opencv_ex/part4/CMakeFiles/34_perspective_ex2.dir/depend
 	$(MAKE) $(MAKESILENT) -f opencv_ex/part4/CMakeFiles/34_perspective_ex2.dir/build.make opencv_ex/part4/CMakeFiles/34_perspective_ex2.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/aa/jina_2026/build/CMakeFiles --progress-num=55,56 "Built target 34_perspective_ex2"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/aa/jina_2026/build/CMakeFiles --progress-num=53,54 "Built target 34_perspective_ex2"
 .PHONY : opencv_ex/part4/CMakeFiles/34_perspective_ex2.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1272,7 +1292,7 @@ opencv_ex/part4/CMakeFiles/34_perspective_ex2.dir/clean:
 opencv_ex/part4/CMakeFiles/35_sobel.dir/all:
 	$(MAKE) $(MAKESILENT) -f opencv_ex/part4/CMakeFiles/35_sobel.dir/build.make opencv_ex/part4/CMakeFiles/35_sobel.dir/depend
 	$(MAKE) $(MAKESILENT) -f opencv_ex/part4/CMakeFiles/35_sobel.dir/build.make opencv_ex/part4/CMakeFiles/35_sobel.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/aa/jina_2026/build/CMakeFiles --progress-num=57,58 "Built target 35_sobel"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/aa/jina_2026/build/CMakeFiles --progress-num=55,56 "Built target 35_sobel"
 .PHONY : opencv_ex/part4/CMakeFiles/35_sobel.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1298,7 +1318,7 @@ opencv_ex/part4/CMakeFiles/35_sobel.dir/clean:
 opencv_ex/part4/CMakeFiles/36_canny.dir/all:
 	$(MAKE) $(MAKESILENT) -f opencv_ex/part4/CMakeFiles/36_canny.dir/build.make opencv_ex/part4/CMakeFiles/36_canny.dir/depend
 	$(MAKE) $(MAKESILENT) -f opencv_ex/part4/CMakeFiles/36_canny.dir/build.make opencv_ex/part4/CMakeFiles/36_canny.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/aa/jina_2026/build/CMakeFiles --progress-num=59 "Built target 36_canny"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/aa/jina_2026/build/CMakeFiles --progress-num=57 "Built target 36_canny"
 .PHONY : opencv_ex/part4/CMakeFiles/36_canny.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1324,7 +1344,7 @@ opencv_ex/part4/CMakeFiles/36_canny.dir/clean:
 opencv_ex/part4/CMakeFiles/37_houring.dir/all:
 	$(MAKE) $(MAKESILENT) -f opencv_ex/part4/CMakeFiles/37_houring.dir/build.make opencv_ex/part4/CMakeFiles/37_houring.dir/depend
 	$(MAKE) $(MAKESILENT) -f opencv_ex/part4/CMakeFiles/37_houring.dir/build.make opencv_ex/part4/CMakeFiles/37_houring.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/aa/jina_2026/build/CMakeFiles --progress-num=60,61 "Built target 37_houring"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/aa/jina_2026/build/CMakeFiles --progress-num=58,59 "Built target 37_houring"
 .PHONY : opencv_ex/part4/CMakeFiles/37_houring.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1350,7 +1370,7 @@ opencv_ex/part4/CMakeFiles/37_houring.dir/clean:
 opencv_ex/part4/CMakeFiles/38_houglineP.dir/all:
 	$(MAKE) $(MAKESILENT) -f opencv_ex/part4/CMakeFiles/38_houglineP.dir/build.make opencv_ex/part4/CMakeFiles/38_houglineP.dir/depend
 	$(MAKE) $(MAKESILENT) -f opencv_ex/part4/CMakeFiles/38_houglineP.dir/build.make opencv_ex/part4/CMakeFiles/38_houglineP.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/aa/jina_2026/build/CMakeFiles --progress-num=62,63 "Built target 38_houglineP"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/aa/jina_2026/build/CMakeFiles --progress-num=60,61 "Built target 38_houglineP"
 .PHONY : opencv_ex/part4/CMakeFiles/38_houglineP.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1376,7 +1396,7 @@ opencv_ex/part4/CMakeFiles/38_houglineP.dir/clean:
 opencv_ex/part4/CMakeFiles/39_color_split.dir/all:
 	$(MAKE) $(MAKESILENT) -f opencv_ex/part4/CMakeFiles/39_color_split.dir/build.make opencv_ex/part4/CMakeFiles/39_color_split.dir/depend
 	$(MAKE) $(MAKESILENT) -f opencv_ex/part4/CMakeFiles/39_color_split.dir/build.make opencv_ex/part4/CMakeFiles/39_color_split.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/aa/jina_2026/build/CMakeFiles --progress-num=64 "Built target 39_color_split"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/aa/jina_2026/build/CMakeFiles --progress-num=62 "Built target 39_color_split"
 .PHONY : opencv_ex/part4/CMakeFiles/39_color_split.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1402,7 +1422,7 @@ opencv_ex/part4/CMakeFiles/39_color_split.dir/clean:
 opencv_ex/part4/CMakeFiles/40_inrange.dir/all:
 	$(MAKE) $(MAKESILENT) -f opencv_ex/part4/CMakeFiles/40_inrange.dir/build.make opencv_ex/part4/CMakeFiles/40_inrange.dir/depend
 	$(MAKE) $(MAKESILENT) -f opencv_ex/part4/CMakeFiles/40_inrange.dir/build.make opencv_ex/part4/CMakeFiles/40_inrange.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/aa/jina_2026/build/CMakeFiles --progress-num=65,66 "Built target 40_inrange"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/aa/jina_2026/build/CMakeFiles --progress-num=63,64 "Built target 40_inrange"
 .PHONY : opencv_ex/part4/CMakeFiles/40_inrange.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1428,7 +1448,7 @@ opencv_ex/part4/CMakeFiles/40_inrange.dir/clean:
 opencv_ex/part4/CMakeFiles/41_inrange.dir/all:
 	$(MAKE) $(MAKESILENT) -f opencv_ex/part4/CMakeFiles/41_inrange.dir/build.make opencv_ex/part4/CMakeFiles/41_inrange.dir/depend
 	$(MAKE) $(MAKESILENT) -f opencv_ex/part4/CMakeFiles/41_inrange.dir/build.make opencv_ex/part4/CMakeFiles/41_inrange.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/aa/jina_2026/build/CMakeFiles --progress-num=67,68 "Built target 41_inrange"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/aa/jina_2026/build/CMakeFiles --progress-num=65,66 "Built target 41_inrange"
 .PHONY : opencv_ex/part4/CMakeFiles/41_inrange.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1454,12 +1474,12 @@ opencv_ex/part4/CMakeFiles/41_inrange.dir/clean:
 opencv_ex/part4/CMakeFiles/42_threshold.dir/all:
 	$(MAKE) $(MAKESILENT) -f opencv_ex/part4/CMakeFiles/42_threshold.dir/build.make opencv_ex/part4/CMakeFiles/42_threshold.dir/depend
 	$(MAKE) $(MAKESILENT) -f opencv_ex/part4/CMakeFiles/42_threshold.dir/build.make opencv_ex/part4/CMakeFiles/42_threshold.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/aa/jina_2026/build/CMakeFiles --progress-num=69,70 "Built target 42_threshold"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/aa/jina_2026/build/CMakeFiles --progress-num=67 "Built target 42_threshold"
 .PHONY : opencv_ex/part4/CMakeFiles/42_threshold.dir/all
 
 # Build rule for subdir invocation for target.
 opencv_ex/part4/CMakeFiles/42_threshold.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/aa/jina_2026/build/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/aa/jina_2026/build/CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 opencv_ex/part4/CMakeFiles/42_threshold.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/aa/jina_2026/build/CMakeFiles 0
 .PHONY : opencv_ex/part4/CMakeFiles/42_threshold.dir/rule
@@ -1480,12 +1500,12 @@ opencv_ex/part4/CMakeFiles/42_threshold.dir/clean:
 opencv_ex/part4/CMakeFiles/43_morpholgy.dir/all:
 	$(MAKE) $(MAKESILENT) -f opencv_ex/part4/CMakeFiles/43_morpholgy.dir/build.make opencv_ex/part4/CMakeFiles/43_morpholgy.dir/depend
 	$(MAKE) $(MAKESILENT) -f opencv_ex/part4/CMakeFiles/43_morpholgy.dir/build.make opencv_ex/part4/CMakeFiles/43_morpholgy.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/aa/jina_2026/build/CMakeFiles --progress-num=71 "Built target 43_morpholgy"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/aa/jina_2026/build/CMakeFiles --progress-num=68,69 "Built target 43_morpholgy"
 .PHONY : opencv_ex/part4/CMakeFiles/43_morpholgy.dir/all
 
 # Build rule for subdir invocation for target.
 opencv_ex/part4/CMakeFiles/43_morpholgy.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/aa/jina_2026/build/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/aa/jina_2026/build/CMakeFiles 2
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 opencv_ex/part4/CMakeFiles/43_morpholgy.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/aa/jina_2026/build/CMakeFiles 0
 .PHONY : opencv_ex/part4/CMakeFiles/43_morpholgy.dir/rule
@@ -1506,7 +1526,7 @@ opencv_ex/part4/CMakeFiles/43_morpholgy.dir/clean:
 opencv_ex/part4/CMakeFiles/44_labeling.dir/all:
 	$(MAKE) $(MAKESILENT) -f opencv_ex/part4/CMakeFiles/44_labeling.dir/build.make opencv_ex/part4/CMakeFiles/44_labeling.dir/depend
 	$(MAKE) $(MAKESILENT) -f opencv_ex/part4/CMakeFiles/44_labeling.dir/build.make opencv_ex/part4/CMakeFiles/44_labeling.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/aa/jina_2026/build/CMakeFiles --progress-num=72,73 "Built target 44_labeling"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/aa/jina_2026/build/CMakeFiles --progress-num=70,71 "Built target 44_labeling"
 .PHONY : opencv_ex/part4/CMakeFiles/44_labeling.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1532,12 +1552,12 @@ opencv_ex/part4/CMakeFiles/44_labeling.dir/clean:
 opencv_ex/part4/CMakeFiles/45_polygon.dir/all:
 	$(MAKE) $(MAKESILENT) -f opencv_ex/part4/CMakeFiles/45_polygon.dir/build.make opencv_ex/part4/CMakeFiles/45_polygon.dir/depend
 	$(MAKE) $(MAKESILENT) -f opencv_ex/part4/CMakeFiles/45_polygon.dir/build.make opencv_ex/part4/CMakeFiles/45_polygon.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/aa/jina_2026/build/CMakeFiles --progress-num=74,75 "Built target 45_polygon"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/aa/jina_2026/build/CMakeFiles --progress-num=72 "Built target 45_polygon"
 .PHONY : opencv_ex/part4/CMakeFiles/45_polygon.dir/all
 
 # Build rule for subdir invocation for target.
 opencv_ex/part4/CMakeFiles/45_polygon.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/aa/jina_2026/build/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/aa/jina_2026/build/CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 opencv_ex/part4/CMakeFiles/45_polygon.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/aa/jina_2026/build/CMakeFiles 0
 .PHONY : opencv_ex/part4/CMakeFiles/45_polygon.dir/rule
@@ -1558,12 +1578,12 @@ opencv_ex/part4/CMakeFiles/45_polygon.dir/clean:
 opencv_ex/part4/CMakeFiles/46_page_postit.dir/all:
 	$(MAKE) $(MAKESILENT) -f opencv_ex/part4/CMakeFiles/46_page_postit.dir/build.make opencv_ex/part4/CMakeFiles/46_page_postit.dir/depend
 	$(MAKE) $(MAKESILENT) -f opencv_ex/part4/CMakeFiles/46_page_postit.dir/build.make opencv_ex/part4/CMakeFiles/46_page_postit.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/aa/jina_2026/build/CMakeFiles --progress-num=76 "Built target 46_page_postit"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/aa/jina_2026/build/CMakeFiles --progress-num=73,74 "Built target 46_page_postit"
 .PHONY : opencv_ex/part4/CMakeFiles/46_page_postit.dir/all
 
 # Build rule for subdir invocation for target.
 opencv_ex/part4/CMakeFiles/46_page_postit.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/aa/jina_2026/build/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/aa/jina_2026/build/CMakeFiles 2
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 opencv_ex/part4/CMakeFiles/46_page_postit.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/aa/jina_2026/build/CMakeFiles 0
 .PHONY : opencv_ex/part4/CMakeFiles/46_page_postit.dir/rule
@@ -1584,7 +1604,7 @@ opencv_ex/part4/CMakeFiles/46_page_postit.dir/clean:
 opencv_ex/part5/CMakeFiles/47_cascade.dir/all:
 	$(MAKE) $(MAKESILENT) -f opencv_ex/part5/CMakeFiles/47_cascade.dir/build.make opencv_ex/part5/CMakeFiles/47_cascade.dir/depend
 	$(MAKE) $(MAKESILENT) -f opencv_ex/part5/CMakeFiles/47_cascade.dir/build.make opencv_ex/part5/CMakeFiles/47_cascade.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/aa/jina_2026/build/CMakeFiles --progress-num=77,78 "Built target 47_cascade"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/aa/jina_2026/build/CMakeFiles --progress-num=75,76 "Built target 47_cascade"
 .PHONY : opencv_ex/part5/CMakeFiles/47_cascade.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1610,12 +1630,12 @@ opencv_ex/part5/CMakeFiles/47_cascade.dir/clean:
 opencv_ex/part5/CMakeFiles/48_cascade_ex.dir/all:
 	$(MAKE) $(MAKESILENT) -f opencv_ex/part5/CMakeFiles/48_cascade_ex.dir/build.make opencv_ex/part5/CMakeFiles/48_cascade_ex.dir/depend
 	$(MAKE) $(MAKESILENT) -f opencv_ex/part5/CMakeFiles/48_cascade_ex.dir/build.make opencv_ex/part5/CMakeFiles/48_cascade_ex.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/aa/jina_2026/build/CMakeFiles --progress-num=79,80 "Built target 48_cascade_ex"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/aa/jina_2026/build/CMakeFiles --progress-num=77 "Built target 48_cascade_ex"
 .PHONY : opencv_ex/part5/CMakeFiles/48_cascade_ex.dir/all
 
 # Build rule for subdir invocation for target.
 opencv_ex/part5/CMakeFiles/48_cascade_ex.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/aa/jina_2026/build/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/aa/jina_2026/build/CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 opencv_ex/part5/CMakeFiles/48_cascade_ex.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/aa/jina_2026/build/CMakeFiles 0
 .PHONY : opencv_ex/part5/CMakeFiles/48_cascade_ex.dir/rule
@@ -1636,7 +1656,7 @@ opencv_ex/part5/CMakeFiles/48_cascade_ex.dir/clean:
 opencv_ex/part5/CMakeFiles/49_hog.dir/all:
 	$(MAKE) $(MAKESILENT) -f opencv_ex/part5/CMakeFiles/49_hog.dir/build.make opencv_ex/part5/CMakeFiles/49_hog.dir/depend
 	$(MAKE) $(MAKESILENT) -f opencv_ex/part5/CMakeFiles/49_hog.dir/build.make opencv_ex/part5/CMakeFiles/49_hog.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/aa/jina_2026/build/CMakeFiles --progress-num=81,82 "Built target 49_hog"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/aa/jina_2026/build/CMakeFiles --progress-num=78,79 "Built target 49_hog"
 .PHONY : opencv_ex/part5/CMakeFiles/49_hog.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1662,7 +1682,7 @@ opencv_ex/part5/CMakeFiles/49_hog.dir/clean:
 opencv_ex/part5/CMakeFiles/50_qr.dir/all:
 	$(MAKE) $(MAKESILENT) -f opencv_ex/part5/CMakeFiles/50_qr.dir/build.make opencv_ex/part5/CMakeFiles/50_qr.dir/depend
 	$(MAKE) $(MAKESILENT) -f opencv_ex/part5/CMakeFiles/50_qr.dir/build.make opencv_ex/part5/CMakeFiles/50_qr.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/aa/jina_2026/build/CMakeFiles --progress-num=83 "Built target 50_qr"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/aa/jina_2026/build/CMakeFiles --progress-num=80 "Built target 50_qr"
 .PHONY : opencv_ex/part5/CMakeFiles/50_qr.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1688,7 +1708,7 @@ opencv_ex/part5/CMakeFiles/50_qr.dir/clean:
 opencv_ex/part5/CMakeFiles/51_corners.dir/all:
 	$(MAKE) $(MAKESILENT) -f opencv_ex/part5/CMakeFiles/51_corners.dir/build.make opencv_ex/part5/CMakeFiles/51_corners.dir/depend
 	$(MAKE) $(MAKESILENT) -f opencv_ex/part5/CMakeFiles/51_corners.dir/build.make opencv_ex/part5/CMakeFiles/51_corners.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/aa/jina_2026/build/CMakeFiles --progress-num=84,85 "Built target 51_corners"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/aa/jina_2026/build/CMakeFiles --progress-num=81,82 "Built target 51_corners"
 .PHONY : opencv_ex/part5/CMakeFiles/51_corners.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1714,7 +1734,7 @@ opencv_ex/part5/CMakeFiles/51_corners.dir/clean:
 opencv_ex/part5/CMakeFiles/52_orb.dir/all:
 	$(MAKE) $(MAKESILENT) -f opencv_ex/part5/CMakeFiles/52_orb.dir/build.make opencv_ex/part5/CMakeFiles/52_orb.dir/depend
 	$(MAKE) $(MAKESILENT) -f opencv_ex/part5/CMakeFiles/52_orb.dir/build.make opencv_ex/part5/CMakeFiles/52_orb.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/aa/jina_2026/build/CMakeFiles --progress-num=86,87 "Built target 52_orb"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/aa/jina_2026/build/CMakeFiles --progress-num=83,84 "Built target 52_orb"
 .PHONY : opencv_ex/part5/CMakeFiles/52_orb.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1740,7 +1760,7 @@ opencv_ex/part5/CMakeFiles/52_orb.dir/clean:
 opencv_ex/part5/CMakeFiles/53_matching.dir/all:
 	$(MAKE) $(MAKESILENT) -f opencv_ex/part5/CMakeFiles/53_matching.dir/build.make opencv_ex/part5/CMakeFiles/53_matching.dir/depend
 	$(MAKE) $(MAKESILENT) -f opencv_ex/part5/CMakeFiles/53_matching.dir/build.make opencv_ex/part5/CMakeFiles/53_matching.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/aa/jina_2026/build/CMakeFiles --progress-num=88 "Built target 53_matching"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/aa/jina_2026/build/CMakeFiles --progress-num=85 "Built target 53_matching"
 .PHONY : opencv_ex/part5/CMakeFiles/53_matching.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1766,7 +1786,7 @@ opencv_ex/part5/CMakeFiles/53_matching.dir/clean:
 opencv_ex/part6/CMakeFiles/54_knnplane.dir/all:
 	$(MAKE) $(MAKESILENT) -f opencv_ex/part6/CMakeFiles/54_knnplane.dir/build.make opencv_ex/part6/CMakeFiles/54_knnplane.dir/depend
 	$(MAKE) $(MAKESILENT) -f opencv_ex/part6/CMakeFiles/54_knnplane.dir/build.make opencv_ex/part6/CMakeFiles/54_knnplane.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/aa/jina_2026/build/CMakeFiles --progress-num=89,90 "Built target 54_knnplane"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/aa/jina_2026/build/CMakeFiles --progress-num=86,87 "Built target 54_knnplane"
 .PHONY : opencv_ex/part6/CMakeFiles/54_knnplane.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1792,7 +1812,7 @@ opencv_ex/part6/CMakeFiles/54_knnplane.dir/clean:
 opencv_ex/part6/CMakeFiles/55_knndigit.dir/all:
 	$(MAKE) $(MAKESILENT) -f opencv_ex/part6/CMakeFiles/55_knndigit.dir/build.make opencv_ex/part6/CMakeFiles/55_knndigit.dir/depend
 	$(MAKE) $(MAKESILENT) -f opencv_ex/part6/CMakeFiles/55_knndigit.dir/build.make opencv_ex/part6/CMakeFiles/55_knndigit.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/aa/jina_2026/build/CMakeFiles --progress-num=91,92 "Built target 55_knndigit"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/aa/jina_2026/build/CMakeFiles --progress-num=88,89 "Built target 55_knndigit"
 .PHONY : opencv_ex/part6/CMakeFiles/55_knndigit.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1810,6 +1830,58 @@ opencv_ex/part6/CMakeFiles/55_knndigit.dir/rule: cmake_check_build_system
 opencv_ex/part6/CMakeFiles/55_knndigit.dir/clean:
 	$(MAKE) $(MAKESILENT) -f opencv_ex/part6/CMakeFiles/55_knndigit.dir/build.make opencv_ex/part6/CMakeFiles/55_knndigit.dir/clean
 .PHONY : opencv_ex/part6/CMakeFiles/55_knndigit.dir/clean
+
+#=============================================================================
+# Target rules for target opencv_ex/part6/CMakeFiles/56_handpose.dir
+
+# All Build rule for target.
+opencv_ex/part6/CMakeFiles/56_handpose.dir/all:
+	$(MAKE) $(MAKESILENT) -f opencv_ex/part6/CMakeFiles/56_handpose.dir/build.make opencv_ex/part6/CMakeFiles/56_handpose.dir/depend
+	$(MAKE) $(MAKESILENT) -f opencv_ex/part6/CMakeFiles/56_handpose.dir/build.make opencv_ex/part6/CMakeFiles/56_handpose.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/aa/jina_2026/build/CMakeFiles --progress-num=90 "Built target 56_handpose"
+.PHONY : opencv_ex/part6/CMakeFiles/56_handpose.dir/all
+
+# Build rule for subdir invocation for target.
+opencv_ex/part6/CMakeFiles/56_handpose.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/aa/jina_2026/build/CMakeFiles 1
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 opencv_ex/part6/CMakeFiles/56_handpose.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/aa/jina_2026/build/CMakeFiles 0
+.PHONY : opencv_ex/part6/CMakeFiles/56_handpose.dir/rule
+
+# Convenience name for target.
+56_handpose: opencv_ex/part6/CMakeFiles/56_handpose.dir/rule
+.PHONY : 56_handpose
+
+# clean rule for target.
+opencv_ex/part6/CMakeFiles/56_handpose.dir/clean:
+	$(MAKE) $(MAKESILENT) -f opencv_ex/part6/CMakeFiles/56_handpose.dir/build.make opencv_ex/part6/CMakeFiles/56_handpose.dir/clean
+.PHONY : opencv_ex/part6/CMakeFiles/56_handpose.dir/clean
+
+#=============================================================================
+# Target rules for target opencv_ex/part6/classify/CMakeFiles/classify.dir
+
+# All Build rule for target.
+opencv_ex/part6/classify/CMakeFiles/classify.dir/all:
+	$(MAKE) $(MAKESILENT) -f opencv_ex/part6/classify/CMakeFiles/classify.dir/build.make opencv_ex/part6/classify/CMakeFiles/classify.dir/depend
+	$(MAKE) $(MAKESILENT) -f opencv_ex/part6/classify/CMakeFiles/classify.dir/build.make opencv_ex/part6/classify/CMakeFiles/classify.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/aa/jina_2026/build/CMakeFiles --progress-num=91,92 "Built target classify"
+.PHONY : opencv_ex/part6/classify/CMakeFiles/classify.dir/all
+
+# Build rule for subdir invocation for target.
+opencv_ex/part6/classify/CMakeFiles/classify.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/aa/jina_2026/build/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 opencv_ex/part6/classify/CMakeFiles/classify.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/aa/jina_2026/build/CMakeFiles 0
+.PHONY : opencv_ex/part6/classify/CMakeFiles/classify.dir/rule
+
+# Convenience name for target.
+classify: opencv_ex/part6/classify/CMakeFiles/classify.dir/rule
+.PHONY : classify
+
+# clean rule for target.
+opencv_ex/part6/classify/CMakeFiles/classify.dir/clean:
+	$(MAKE) $(MAKESILENT) -f opencv_ex/part6/classify/CMakeFiles/classify.dir/build.make opencv_ex/part6/classify/CMakeFiles/classify.dir/clean
+.PHONY : opencv_ex/part6/classify/CMakeFiles/classify.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

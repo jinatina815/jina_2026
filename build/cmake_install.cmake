@@ -53,6 +53,7 @@ if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   include("/home/aa/jina_2026/build/opencv_ex/part4/cmake_install.cmake")
   include("/home/aa/jina_2026/build/opencv_ex/part5/cmake_install.cmake")
   include("/home/aa/jina_2026/build/opencv_ex/part6/cmake_install.cmake")
+  include("/home/aa/jina_2026/build/opencv_ex/part6/classify/cmake_install.cmake")
 
 endif()
 

@@ -17,6 +17,7 @@ set(CMAKE_MAKEFILE_DEPENDS
   "../opencv_ex/part4/CMakeLists.txt"
   "../opencv_ex/part5/CMakeLists.txt"
   "../opencv_ex/part6/CMakeLists.txt"
+  "../opencv_ex/part6/classify/CMakeLists.txt"
   "../part5/date/CMakeLists.txt"
   "../part5/twoDouble/CMakeLists.txt"
   "../part6/scoreProcess/CMakeLists.txt"
@@ -65,6 +66,7 @@ set(CMAKE_MAKEFILE_PRODUCTS
   "opencv_ex/part4/CMakeFiles/CMakeDirectoryInformation.cmake"
   "opencv_ex/part5/CMakeFiles/CMakeDirectoryInformation.cmake"
   "opencv_ex/part6/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "opencv_ex/part6/classify/CMakeFiles/CMakeDirectoryInformation.cmake"
   )
 
 # Dependency information for all targets:
@@ -126,4 +128,6 @@ set(CMAKE_DEPEND_INFO_FILES
   "opencv_ex/part5/CMakeFiles/53_matching.dir/DependInfo.cmake"
   "opencv_ex/part6/CMakeFiles/54_knnplane.dir/DependInfo.cmake"
   "opencv_ex/part6/CMakeFiles/55_knndigit.dir/DependInfo.cmake"
+  "opencv_ex/part6/CMakeFiles/56_handpose.dir/DependInfo.cmake"
+  "opencv_ex/part6/classify/CMakeFiles/classify.dir/DependInfo.cmake"
   )
